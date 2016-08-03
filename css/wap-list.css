@@ -1,0 +1,304 @@
+.quwan-wap-list-top {
+  margin: 6px;
+  background: url("../images/wap-images/list-top-bg.jpg") no-repeat;
+  height: 435px;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.quwan-wap-list-top .quwan-wap-list-ttitle {
+  padding-top: 16px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+.quwan-wap-list-top .quwan-wap-list-tmoney {
+  padding: 0 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.quwan-wap-list-top .quwan-wap-list-tmoney .quwan-wap-list-tmtext {
+  width: 100%;
+  height: 24px;
+}
+.quwan-wap-list-top .quwan-wap-list-tthird {
+  padding: 0 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 36px;
+}
+.quwan-wap-list-top .quwan-wap-list-tthird .quwan-wap-list-t3 {
+  width: 100%;
+  height: 24px;
+}
+.quwan-wap-list-top .quwan-wap-list-tfour {
+  padding: 0 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 36px;
+}
+.quwan-wap-list-top .quwan-wap-list-tfive {
+  padding: 0 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 32px;
+}
+.quwan-wap-list-content {
+  width: 100%;
+}
+.quwan-wap-list-content ul {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.quwan-wap-list-content ul li {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 6px;
+}
+.quwan-wap-list-content ul li a {
+  display: block;
+  width: 100%;
+}
+.quwan-wap-list-content ul li a img {
+  display: block;
+  width: 100%;
+}
+.quwan-wap-list-content ul li a .quwan-wap-list-dbtext {
+  padding: 0 7px 0 10px ;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.quwan-wap-list-content ul li a .quwan-wap-list-dbprice {
+  margin: 6px 11px 0;
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #fff;
+  background: #ff0000;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -o-border-radius: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.quwan-wap-index-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 49px;
+  border-top: 1px solid #999999;
+  background: #fafafa;
+}
+.quwan-wap-index-fixed .quwan-wap-index-findex {
+  width: 20%;
+  float: left;
+  display: block;
+  height: 49px;
+  position: relative;
+}
+.quwan-wap-index-fixed .quwan-wap-index-findex i {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -12px;
+  background: url("../images/wap-images/index-fb-logo1.png") no-repeat;
+  background-size: 24px 24px;
+  -moz-background-size: 24px 24px;
+  -webkit-background-size: 24px 24px;
+  -o-background-size: 24px 24px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-findex span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding-top: 29px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.quwan-wap-index-fixed .quwan-wap-index-frend {
+  width: 20%;
+  float: left;
+  display: block;
+  height: 49px;
+  position: relative;
+}
+.quwan-wap-index-fixed .quwan-wap-index-frend i {
+  display: block;
+  width: 28px;
+  height: 23px;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  margin-left: -14px;
+  background: url("../images/wap-images/index-fb-logo2.png") no-repeat;
+  background-size: 28px 23px;
+  -moz-background-size: 28px 23px;
+  -webkit-background-size: 28px 23px;
+  -o-background-size: 28px 23px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-frend span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding-top: 29px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fspecial {
+  width: 20%;
+  float: left;
+  display: block;
+  height: 49px;
+  position: relative;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fspecial em {
+  display: block;
+  width: 58px;
+  height: 21px;
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  margin-left: -29px;
+  background: url("../images/wap-images/index-fb-round.png") no-repeat;
+  background-size: 58px 21px;
+  -moz-background-size: 58px 21px;
+  -webkit-background-size: 58px 21px;
+  -o-background-size: 58px 21px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fspecial i {
+  display: block;
+  width: 44px;
+  height: 34px;
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  margin-left: -22px;
+  background: url("../images/wap-images/index-fb-logo3.png") no-repeat;
+  background-size: 44px 34px;
+  -moz-background-size: 44px 34px;
+  -webkit-background-size: 44px 34px;
+  -o-background-size: 44px 34px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fspecial span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding-top: 29px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ff6627;
+  text-align: center;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fbuy {
+  width: 20%;
+  float: left;
+  display: block;
+  height: 49px;
+  position: relative;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fbuy i {
+  display: block;
+  width: 24px;
+  height: 21px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  margin-left: -12px;
+  background: url("../images/wap-images/index-fb-logo4.png") no-repeat;
+  background-size: 24px 21px;
+  -moz-background-size: 24px 21px;
+  -webkit-background-size: 24px 21px;
+  -o-background-size: 24px 21px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fbuy span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding-top: 29px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fpersonal {
+  width: 20%;
+  float: left;
+  display: block;
+  height: 49px;
+  position: relative;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fpersonal i {
+  display: block;
+  width: 24px;
+  height: 21px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  margin-left: -12px;
+  background: url("../images/wap-images/index-fb-logo5.png") no-repeat;
+  background-size: 24px 21px;
+  -moz-background-size: 24px 21px;
+  -webkit-background-size: 24px 21px;
+  -o-background-size: 24px 21px;
+}
+.quwan-wap-index-fixed .quwan-wap-index-fpersonal span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding-top: 29px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.quwan-wap-index-fixed a:hover {
+  text-decoration: none;
+}
