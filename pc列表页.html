@@ -395,6 +395,7 @@
 </div>
 </body>
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script>
     $(function () {
         var $bul = $('.quwan-list-tb-bul');
@@ -404,18 +405,13 @@
         var $number = $bulli.length;
         $bul.css('width',$width*$number);
         $('.quwan-list-tb-bottom').css('height',$($bulli[0]).height());
-        $hoverli.each(function () {
-            var $_this = $(this);
-            $(this).on('mouseover',function () {
-                if($_this.hasClass('current')){
-                    $bul.animate({marginLeft:'-' + $_this.index()*$width},1000);
-                }else{
-                    $bul.stop().animate({marginLeft:'-' + $_this.index()*$width},1000);
-                }
-                $hoverli.removeClass('current');
-                $_this.addClass('current');
-                $('.quwan-list-tb-bottom').css('height',$bulli.eq($_this.index()).height());
-            });
+        $('.quwan-list-tbottom').slide({
+            titCell:".quwan-list-tb-top ul li",
+            mainCell:".quwan-list-tb-bul",
+            autoPage:false,
+            effect:"leftLoop",
+            autoPlay:true,
+            titOnClassName:'current'
         });
     });
 </script>

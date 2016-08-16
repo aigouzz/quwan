@@ -107,6 +107,17 @@
   text-align: center;
   color: #ff0000;
 }
+@media all and (max-width: 320px) {
+  .quwan-wap-index-top .quwan-wap-index-tlocation {
+    margin-left: 0;
+  }
+  .quwan-wap-index-top .quwan-wap-index-tclass {
+    margin: 0;
+  }
+  .quwan-wap-index-top .quwan-wap-index-tsearch {
+    margin-left: -115px;
+  }
+}
 .quwan-wap-index-imgs {
   width: 100%;
   height: 150px;
@@ -307,22 +318,24 @@
   overflow: hidden;
   padding-bottom: 10px;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li {
-  float: left;
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container {
+  width: 100%;
+}
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   padding: 0 2px 0 3px;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li a {
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide a {
   display: block;
   width: 100%;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li a img {
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide a img {
   display: block;
   width: 100%;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li a .quwan-wap-index-tbtext {
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide a .quwan-wap-index-tbtext {
   padding: 0 7px 0 10px ;
   display: block;
   width: 100%;
@@ -335,7 +348,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li a .quwan-wap-index-tbprice {
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide a .quwan-wap-index-tbprice {
   margin: 6px 11px 0;
   display: block;
   height: 22px;
@@ -350,7 +363,7 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.quwan-wap-index-today .quwan-wap-index-tbottom ul li a:hover {
+.quwan-wap-index-today .quwan-wap-index-tbottom .swiper-container .swiper-slide a:hover {
   text-decoration: none;
 }
 .quwan-wap-index-districted {
@@ -403,22 +416,24 @@
   overflow: hidden;
   padding-bottom: 10px;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li {
-  float: left;
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container {
+  width: 100%;
+}
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   padding: 0 2px 0 3px;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li a {
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide a {
   display: block;
   width: 100%;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li a img {
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide a img {
   display: block;
   width: 100%;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li a .quwan-wap-index-dbtext {
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide a .quwan-wap-index-dbtext {
   padding: 0 7px 0 10px ;
   display: block;
   width: 100%;
@@ -431,7 +446,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li a .quwan-wap-index-dbprice {
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide a .quwan-wap-index-dbprice {
   margin: 6px 11px 0;
   display: block;
   height: 22px;
@@ -446,7 +461,7 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.quwan-wap-index-districted .quwan-wap-index-dbottom ul li a:hover {
+.quwan-wap-index-districted .quwan-wap-index-dbottom .swiper-container .swiper-slide a:hover {
   text-decoration: none;
 }
 .quwan-wap-index-bottom {
@@ -617,6 +632,7 @@
   height: 49px;
   border-top: 1px solid #999999;
   background: #fafafa;
+  z-index: 6;
 }
 .quwan-wap-index-fixed .quwan-wap-index-findex {
   width: 20%;

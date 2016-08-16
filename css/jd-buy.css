@@ -1,0 +1,256 @@
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+button,
+html input[type=button],
+input[type=submit] {
+  -webkit-apperance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+em,
+i,
+u {
+  font-style: normal;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.al {
+  text-align: left;
+}
+.ac {
+  text-align: center;
+}
+.ar {
+  text-align: right;
+}
+.hide {
+  display: none;
+}
+.clear,
+.clr {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+.dorpdown {
+  position: relative;
+}
+.dorpdown-layer {
+  display: none;
+  position: absolute;
+}
+.dorpdown:hover .dorpdown-layer,
+.hover .dorpdown-layer {
+  display: block;
+}
+.cw-icon {
+  position: relative;
+  cursor: default;
+  zoom: 1;
+}
+.cw-icon .i,
+.cw-icon i {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+}
+.w {
+  width: 990px;
+  margin: 0 auto;
+}
+.root61 .w {
+  width: 1210px;
+}
+body {
+  font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+  color: #666;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #C81623;
+}
+.m,
+.mb,
+.mc,
+.mt,
+.p-detail,
+.p-img,
+.p-market,
+.p-name,
+.p-price,
+.sm,
+.smb,
+.smc,
+.smt {
+  overflow: hidden;
+}
+.img-error {
+  background: url(//misc.360buyimg.com/lib/skin/e/i/error-jd.gif) no-repeat 50% 50%;
+}
+#wheader .center {
+  width: 990px;
+}
+#footers .center {
+  width: 990px;
+}
+#wheader .wh_l p.no_ho:hover {
+  color: #999;
+}
+.addr-switch {
+  width: 98px;
+}
+.form .itxt {
+  height: 23px;
+  width: 155px;
+  padding: 3px 5px 2px;
+}
+.form .itxt01 {
+  width: 510px;
+}
+.form .itxt02 {
+  width: 245px;
+}
+.form .itxt03 {
+  width: 185px;
+}
+.form .itxt04 {
+  width: 225px;
+}
+.ui-dialog {
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -120px 0 0 -325px;
+}
+#consignee-form {
+  padding-top: 10px;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.mask .mask-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+#selfget-list .item-selected .consignee-item b {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  background: url(//misc.360buyimg.com/user/purchase/2.0.0/css/i/selected-icon.png) no-repeat;
+}
+#selfget-list .item-selected .consignee-item {
+  border: 2px solid #e4393c;
+  padding: 4px 10px;
+}
+.coupon-main .coupon-scroll .hide {
+  display: none;
+}

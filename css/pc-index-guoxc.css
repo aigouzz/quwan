@@ -28,11 +28,21 @@
   width: 87px;
   height: 52px;
 }
+#new_top .wtop .center .nlogo a {
+  display: block;
+  width: 100%;
+  height: 52px;
+}
 #new_top .wtop .center .np_1 {
   width: 206px;
   height: 43px;
   margin-left: 166px;
   margin-top: 40px;
+}
+#new_top .wtop .center .np_1 a {
+  display: block;
+  width: 100%;
+  height: 43px;
 }
 #new_top .wtop .center .np_1 img {
   width: 206px;
@@ -72,7 +82,7 @@
   height: 44px;
   background: #fff;
   padding-bottom: 5px;
-  z-index: 99;
+  z-index: 1000;
 }
 #new_top .wtop .center #nav .nav-ul {
   width: 990px;
@@ -374,3 +384,18 @@
   background: #fe7300;
 }
 /* 特色服务end */
+#footers {
+  padding: 20px 0;
+  background: #ffffff;
+}
+#footers .center {
+  border-top: 1px solid #E5E5E5;
+  padding-top: 10px;
+  line-height: 18px;
+}
+#footers .center .copyright {
+  padding-bottom: 10px;
+}
+#footers .center .wj {
+  margin: 0 5px;
+}
