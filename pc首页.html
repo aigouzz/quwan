@@ -1,0 +1,832 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="http://test.bjwanqu.com/Public/ThemeHome/default/images/wanqu.ico" type="image/x-icon">
+    <title>玩趣</title>
+    <script src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery-1.8.3.js"></script>
+    <!--首页列表轮播样式-->
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.cssAnimate.mini.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.themepunch.services.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/peyton_files/showBo.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/settings.css" media="screen">
+    <!--首页列表轮播样式-->
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/focusStyle.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/content.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/new_style.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/pageGroup.css" rel="stylesheet" type="text/css">
+    <link href="css/pc-index-guoxc.css" rel="stylesheet" type="text/css">
+    <style>
+        #wheader .center{
+            width: 990px;
+        }
+        #footers .center{
+            width: 990px;
+        }
+        #wheader .wh_l p.no_ho:hover {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<div id="wheader">
+    <div class="center">
+        <div class="wh_l fl">
+            <a href="/">玩趣首页</a>
+            <p class="no_ho">欢迎来到玩趣</p>
+            <a href="/Login/index.html">152****1718</a>
+            <a href="/User/index.html">个人中心</a>
+            <a href="/User/logout.html">退出</a>					</div>
+        <div class="wh_r fr">
+            <a href="/Cart/index.html" class="gwc"><i class="icon_z"></i>购物车1件</a>
+            <a href="/Store/storeList.html">线下店</a>
+            <p class="scj">收藏夹<i class="icon_z"></i><span><a href="/User/userCollect.html">收藏的宝贝</a><a href="/User/userCollectStore.html">收藏的店铺</a></span></p><p>
+            <a href="#" class="sjb"><i class="icon_z"></i>手机版	<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg" class="codeMobile" width="200"></a>
+        </p><p>全国热线：010-57728819</p>
+        </div>
+    </div>
+</div>
+
+<!-- 新修改by guoxc  20160730  -->
+<div id="new_top">
+    <div class="wtop">
+        <div class="center clearfix">
+            <div class="nlogo fl">
+                <a href="#">
+                    <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/nlogo.png">
+                </a>
+            </div>
+            <div class="np_1 fl">
+                <a href="#">
+                    <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/quwan-title.png">
+                </a>
+            </div>
+            <div class="ssc fr">
+                <form action="/Category/cateList" method="get">
+                    <input type="text" value="" name="kw" class="tests">
+                    <input type="submit" value="" class="btns">
+                </form>
+            </div>
+
+            <div class="clear"></div>
+            <div id="nav">
+                <ul class="nav-ul">
+                    <li><a href="/" class="current">首页</a></li>
+                    <li><a href="/Category/cateList/pattern/1.html">全部</a>
+                    </li>
+                    <li><a href="#">品牌</a>
+                        <ul>
+                            <li>
+                                <a href="/Category/cateList/brand_id/18.html">小泰克little tikes</a>
+                            </li>
+                            <li>
+                                <a href="/Category/cateList/brand_id/3.html">费雪Fisher</a>
+                            </li>
+                            <li><a href="/Category/cateList/brand_id/5.html">乐高</a></li>
+                            <li><a href="/Category/cateList/brand_id/6.html">伟易达</a></li>                                                            </ul>
+                    </li>
+                    <li>
+                        <a href="#">价格</a>
+                        <ul style=" height: 0px;">
+                            <li>
+                                <a href="/Category/cateList/minmoney/0/maxmoney/99.html">0~99</a></li>
+                            <li><a href="/Category/cateList/minmoney/100/maxmoney/199.html">100~199</a></li>
+                            <li><a href="/Category/cateList/minmoney/200/maxmoney/299.html">200~299</a></li>
+                            <li><a href="/Category/cateList/minmoney/300/maxmoney/399.html">300~399</a></li>
+                            <li><a href="/Category/cateList/minmoney/500/maxmoney/1000.html">500以上</a></li>                                                            </ul>
+                    </li>
+                    <li><a href="#">年龄</a>
+                        <ul style="height: 0px;">
+                            <li><a href="/Category/cateList/type/1.html">0-1岁</a></li><li><a href="/Category/cateList/type/2.html">1-2岁</a></li><li><a href="/Category/cateList/type/16.html">2-4岁</a></li><li><a href="/Category/cateList/type/15.html">4-6岁</a></li>                                                            </ul>
+                    </li>
+                    <li><a href="#">签到</a>
+                        <ul>
+                            <li><a href="/Category/cateList/grandpa_id/1.html">益智玩具</a></li>
+                            <li><a href="/Category/cateList/grandpa_id/54.html">轨道类玩具</a></li>
+                            <li><a href="/Category/cateList/grandpa_id/55.html">户外玩具</a></li>
+                            <li><a href="/Category/cateList/grandpa_id/56.html">童车类玩具</a></li>
+                            <li><a href="/Category/cateList/grandpa_id/57.html">拼插类玩具</a></li><li><a href="/Category/cateList/grandpa_id/62.html">蹦床类玩具</a></li><li><a href="/Category/cateList/grandpa_id/64.html">滑梯/秋千</a></li><li><a href="/Category/cateList/grandpa_id/65.html">骑行车/摇马</a></li><li><a href="/Category/cateList/grandpa_id/66.html">电动车/遥控车</a></li><li><a href="/Category/cateList/grandpa_id/67.html">游戏围栏</a></li><li><a href="/Category/cateList/grandpa_id/68.html">健身架/蹦床</a></li><li><a href="/Category/cateList/grandpa_id/69.html">帐篷/游戏屋</a></li><li><a href="/Category/cateList/grandpa_id/70.html">球类运动</a></li><li><a href="/Category/cateList/grandpa_id/71.html">声光音乐</a></li><li><a href="/Category/cateList/grandpa_id/72.html">学步</a></li><li><a href="/Category/cateList/grandpa_id/73.html">爬行</a></li><li><a href="/Category/cateList/grandpa_id/74.html">床铃/摇铃</a></li><li><a href="/Category/cateList/grandpa_id/75.html">沙滩/戏水</a></li><li><a href="/Category/cateList/grandpa_id/76.html">安抚玩具</a></li><li><a href="/Category/cateList/grandpa_id/77.html">踩踏车/滑板车</a></li><li><a href="/Category/cateList/grandpa_id/78.html">其他</a></li><li><a href="/Category/cateList/grandpa_id/53.html">ppp</a></li><li><a href="/Category/cateList/grandpa_id/79.html"></a></li><li><a href="/Category/cateList/grandpa_id/80.html">仿真厨房</a></li><li><a href="/Category/cateList/grandpa_id/81.html">仿真类模拟玩具</a></li><li><a href="/Category/cateList/grandpa_id/82.html">户外城堡类</a></li><li><a href="/Category/cateList/grandpa_id/83.html">变形玩具</a></li><li><a href="/Category/cateList/grandpa_id/84.html">仿真购物车</a></li><li><a href="/Category/cateList/grandpa_id/87.html"></a></li>                                                            </ul>
+                    </li>
+                    <li><a href="/Category/cateList/activity/2/store_id/1.html">线下店</a></li>
+                    <li><a href="/Category/cateList/activity/1/store_id/1.html">秒杀</a></li>
+                </ul>
+            </div>
+            <script>
+                $("#nav>ul>li").hover(function(){
+                    var thil = $(this).children('ul').children('li').length;
+                    var heig = thil*44;
+                    $(this).children('ul').stop().animate({"height":heig});
+                },function(){
+                    $(this).children('ul').stop().animate({"height":"0"});
+                });
+                $(window).on('load scroll',function () {
+                    if($(this).scrollTop() > 170){
+                        $('#nav').css({
+                            position:'fixed',
+                            top:'0',
+                            left:0,
+                            right:0
+                        });
+                    }else{
+                        $('#nav').css({
+                            position:'static'
+                        });
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<!-- 新修改by guoxc  20160730  -->
+
+
+
+<!--签到-->
+<div class="back_b">
+    <div class="qiandao">
+        <div class="chas"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/chas.png"></div>
+        <a href="/User/myTicket.html" class="youhuiqs">我的优惠券</a>
+        <div class="clear"></div>
+        <div class="day">
+            <ul>
+                <li>
+                    <p>DAY1</p>
+                    <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_1.jpg">
+                    <span>1元</span>
+                </li><li>
+                <p>DAY2</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>1元</span>
+            </li><li>
+                <p>DAY3</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>6元</span>
+            </li><li>
+                <p>DAY4</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>1元</span>
+            </li><li>
+                <p>DAY5</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>1元</span>
+            </li><li>
+                <p>DAY6</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>1元</span>
+            </li><li>
+                <p>DAY7</p>
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/qd_2.jpg">
+                <span>21元</span>
+            </li>					</ul>
+        </div>
+        <p class="qian_ti">您已连续签到<i>1</i>天</p>
+        <a href="#" class="youhuiqsb">获得<i>1</i>元金额券</a>
+    </div>
+</div>
+<script>
+    var uri='http%3A%2F%2Ftest.bjwanqu.com%2F';
+    $("#qiandao").click(function(){
+        $.ajax({
+            type: "POST",
+            url: "/Index/getSign.html",
+            data: 1,
+            dataType:'json',
+            success: function(data){
+                if(data==1){
+                    $(".back_b").show();                                      }else if(data==2){
+                    location.href='/Login/index?redirect_uri='+uri;
+                }else{
+
+                }
+            }
+        });
+    });
+    $(".qiandao .chas").click(function(){
+        $(".back_b").hide();
+    });
+</script>
+
+<script>
+    $(function(){
+        //$("a").attr('target','_blank');//TODO：有的需要打开新页，有的不用，要分开控制
+        $("#nav>ul>li>a#qiandao").attr('target','_parent');
+    });
+</script>
+
+<div id="banner">
+    <div id="focus-banner">
+        <ul id="focus-banner-list">
+            <li style="z-index: 4; display: none;">
+                <a href="http://" class="focus-banner-img" style="background: url(http://test.bjwanqu.com/Uploads//slide/20160727/57986f7b3ef14.jpg) no-repeat center top;">
+                </a>
+            </li><li style="z-index: 3; display: list-item;">
+            <a href="http://" class="focus-banner-img" style="background: url(http://test.bjwanqu.com/Uploads//slide/20160727/57986f926fd74.jpg) no-repeat center top;">
+            </a>
+        </li><li style="z-index: 2; display: none;">
+            <a href="http://" class="focus-banner-img" style="background: url(http://test.bjwanqu.com/Uploads//slide/20160727/57986f6fa3986.jpg) no-repeat center top;">
+            </a>
+        </li><li style="z-index: 1; display: none;">
+            <a href="http://" class="focus-banner-img" style="background: url(http://test.bjwanqu.com/Uploads//slide/20160727/57987066006cc.jpg) no-repeat center top;">
+            </a>
+        </li>
+        </ul>
+        <div class="center" style="position: absolute; left: 50%; margin-left: -495px; top: 50%; z-index: 99999999;">
+            <a href="javascript:;" id="next-img" class="focus-handle" target=""></a>
+            <a href="javascript:;" id="prev-img" class="focus-handle" target=""></a>
+        </div>
+
+        <ul id="focus-bubble" style="width: 176px; margin-left: -44px;"></ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $('#next-img').attr('target','');
+        $('#prev-img').attr('target','');
+    })
+    //Powered By smvv @hi.baidu.com/smvv21
+    function flashChecker()
+    {
+        var hasFlash=0;　　　　//是否安装了flash
+        var flashVersion=0;　　//flash版本
+
+        if(document.all)
+        {
+            var swf = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+            if(swf) {
+                hasFlash=1;
+                VSwf=swf.GetVariable("$version");
+                flashVersion=parseInt(VSwf.split(" ")[1].split(",")[0]);
+            }
+        }else{
+            if (navigator.plugins && navigator.plugins.length > 0)
+            {
+                var swf=navigator.plugins["Shockwave Flash"];
+                if (swf)
+                {
+                    hasFlash=1;
+                    var words = swf.description.split(" ");
+                    for (var i = 0; i < words.length; ++i)
+                    {
+                        if (isNaN(parseInt(words[i]))) continue;
+                        flashVersion = parseInt(words[i]);
+                    }
+                }
+            }
+        }
+        return {f:hasFlash,v:flashVersion};
+    }
+
+    var fls=flashChecker();
+    var s="";
+    var isflash=0;
+    //if(fls.f) document.write("您安装了flash,当前flash版本为: "+fls.v+".x");
+    //else document.write("您没有安装flash");
+    //if(fls.f) console.log("您安装了flash,当前flash版本为: "+fls.v+".x");
+    //else console.log("您没有安装flash");
+    if(fls.f) isflash=1;
+    else isflash=0;
+</script>
+
+<script>
+    $(function(){
+        var focusBanner=function(){
+            var $focusBanner=$("#focus-banner"),
+                    $bannerList=$("#focus-banner-list li"),
+                    $focusHandle=$(".focus-handle"),
+                    $bannerImg=$(".focus-banner-img"),
+                    $nextBnt=$("#next-img"),
+                    $prevBnt=$("#prev-img"),
+                    $focusBubble=$("#focus-bubble"),
+                    bannerLength=$bannerList.length,
+                    _index=0,
+                    _timer="";
+
+            var _height=$(".focus-banner-img").find("img").css("height","450");
+            $focusBanner.height(_height);
+            $bannerImg.height(_height);
+
+            $(window).resize(function(){
+                window.location.reload()
+            });
+
+            for(var i=0; i<bannerLength; i++){
+                $bannerList.eq(i).css("zIndex",bannerLength-i);
+                $focusBubble.append("<li></li>");
+            }
+            $focusBubble.find("li").eq(0).addClass("current");
+            var bubbleLength=$focusBubble.find("li").length;
+            $focusBubble.css({
+                "width":bubbleLength*44,
+                "marginLeft":-bubbleLength*11
+            });//初始化
+
+            $focusBubble.on("click","li",function(){
+                $(this).addClass("current").siblings().removeClass("current");
+                _index=$(this).index();
+                changeImg(_index);
+            });//点击轮换
+
+            $nextBnt.on("click",function(){
+                _index++
+                if(_index>bannerLength-1){
+                    _index=0;
+                }
+                changeImg(_index);
+            });//下一张
+
+            $prevBnt.on("click",function(){
+                _index--
+                if(_index<0){
+                    _index=bannerLength-1;
+                }
+                changeImg(_index);
+            });//上一张
+
+            function changeImg(_index){
+                $bannerList.eq(_index).fadeIn(250);
+                $bannerList.eq(_index).siblings().fadeOut(200);
+                $focusBubble.find("li").removeClass("current");
+                $focusBubble.find("li").eq(_index).addClass("current");
+                clearInterval(_timer);
+                _timer=setInterval(function(){$nextBnt.click()},5000)
+            }//切换主函数
+            _timer=setInterval(function(){$nextBnt.click()},5000)
+        }();
+    })
+</script>
+
+<div id="ncontent">
+    <div class="ncon_box1" style="position: relative;">
+        <div class="center">
+            <div class="icdb"></div>
+            <div class="example-wrapper">
+                <div id="services-example-1" class="theme1">
+                    <div class="main-container" style="z-index:7;position:absolute;top:0px;left:0px;width:920px;height:290px;overflow:hidden"><div class="slider_holder" style="position:relative;width:920px;height:290px;overflow:hidden"><div style="position:absolute;top:0px;left:0px" class="services-wrapper-top"><ul style="visibility: visible;">
+                        <li style="opacity: 1;"><div class="slide" style="position:absolute;overflow:hidden;width:160px;top:0px;left:0px;"><a href="/Category/cateList/brand_id/18.html" style="opacity: 1;"><div class="imgholder" style="cursor: pointer; position: relative; overflow: hidden;"><img src="http://test.bjwanqu.com/Uploads/brand/20160628/5771ebcb34c66.png" style="opacity: 1;"><img class="bw" src="undefined" style="position: absolute; z-index: 1000; opacity: 0; left: 0px; top: 0px;"></div></a></div></li><li style="opacity: 1;"><div class="slide" style="position:absolute;overflow:hidden;width:160px;top:0px;left:190px;"><a href="/Category/cateList/brand_id/3.html" style="opacity: 1;"><div class="imgholder" style="cursor: pointer; position: relative; overflow: hidden;"><img src="http://test.bjwanqu.com/Uploads/brand/20160613/575e5b58cbfe3.png" style="opacity: 1;"><img class="bw" src="undefined" style="position: absolute; z-index: 1000; opacity: 0; left: 0px; top: 0px;"></div></a></div></li><li style="opacity: 1;"><div class="slide" style="position:absolute;overflow:hidden;width:160px;top:0px;left:380px;"><a href="/Category/cateList/brand_id/5.html" style="opacity: 1;"><div class="imgholder" style="cursor: pointer; position: relative; overflow: hidden;"><img src="http://test.bjwanqu.com/Uploads/brand/20160613/575e5b84d8ef5.png" style="opacity: 1;"><img class="bw" src="undefined" style="position: absolute; z-index: 1000; opacity: 0; left: 0px; top: 0px;"></div></a></div></li><li style="opacity: 1;"><div class="slide" style="position:absolute;overflow:hidden;width:160px;top:0px;left:570px;"><a href="/Category/cateList/brand_id/6.html" style="opacity: 1;"><div class="imgholder" style="cursor: pointer; position: relative; overflow: hidden;"><img src="http://test.bjwanqu.com/Uploads/brand/20160628/5771ebb364e4b.png" style="opacity: 1;"><img class="bw" src="undefined" style="position: absolute; z-index: 1000; opacity: 0; left: 0px; top: 0px;"></div></a></div></li>							</ul></div></div></div>
+                    <div class="toolbar" style="visibility: hidden;">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+            </div>
+            <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/lanb.jpg" width="960" style="display: block; margin: auto; position: absolute; left: 50%; margin-left: -480px; top: 97%;">
+        </div>
+
+        <script type="text/javascript">
+
+            $(function() {
+
+                $('#services-example-1').services(
+                        {
+                            width:920,
+                            height:290,
+                            slideAmount:5,
+                            slideSpacing:30,
+                            touchenabled:"on",
+                            mouseWheel:"on",
+                            hoverAlpha:"off",
+                            slideshow:3000,
+                            hovereffect:"on",
+                            callBack:function() { }
+
+                        });
+
+                $('#services-example-2').services(
+                        {
+                            width:720,
+                            height:345,
+                            slideAmount:6,
+                            slideSpacing:20,
+                            touchenabled:"on",
+                            mouseWheel:"on",
+                            hoverAlpha:"off",
+                            slideshow:3000,
+                            hovereffect:"on",
+                            callBack:function() { }
+
+                        });
+
+                $('.slider_holder ul li').hover(function(){
+                    $(this).css("opacity",1);
+                    $(this).siblings('li').css("opacity",0.5);
+                },function(){
+                    $(this).css("opacity",1);
+                    $(this).siblings('li').css("opacity",1);
+                });
+
+            });
+        </script>
+
+    </div>
+
+    <div class="ncon_box2">
+        <div class="center">
+            <div class="icdb fl"></div>
+            <a href="/Category/cateList/pattern/1.html" class="more fr"></a>
+            <div class="clear"></div>
+            <ul class="ncon2_l1">
+
+                <li>
+                    <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/836.html">
+                        <img src="http://test.bjwanqu.com/Uploads//slide/20160530/574bf4a429377.jpg">
+                    </a>
+                    <p>费雪小猴子</p>
+                </li><li>
+                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1031.html">
+                    <img src="http://test.bjwanqu.com/Uploads//slide/20160530/574bf50fa593c.jpg">
+                </a>
+                <p>费雪双语学习屋</p>
+            </li><li>
+                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1113.html">
+                    <img src="http://test.bjwanqu.com/Uploads//slide/20160530/574bf3b1bff48.jpg">
+                </a>
+                <p>伟易达神奇轨道车</p>
+            </li><li>
+                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1205.html">
+                    <img src="http://test.bjwanqu.com/Uploads//slide/20160707/577dcb64cb0ab.jpg">
+                </a>
+                <p>费雪小狗皮皮学习桌</p>
+            </li>					</ul>
+            <ul class="ncon2_l2">
+                <li>
+                    <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1028.html">
+                        <img src="http://test.bjwanqu.com/Uploads//slide/20160503/57286a4b797f0.jpg">
+                        <p>费雪狮子学步车</p>
+                    </a>
+                </li><li>
+                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1022.html">
+                    <img src="http://test.bjwanqu.com/Uploads//slide/20160503/57286660e7b7b.jpg">
+                    <p>费雪多功能小汽车</p>
+                </a>
+            </li><li>
+                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1141.html">
+                    <img src="http://test.bjwanqu.com/Uploads//slide/20160530/574bf88336d2b.png">
+                    <p>小泰克l老虎琴</p>
+                </a>
+            </li>					</ul>
+        </div>
+    </div>
+
+    <div class="ncon_box3">
+        <div class="center">
+            <div class="icdb"></div>
+            <div class="nco3">
+                <div class="nco3_t">
+                    <ul>
+                        <li>
+                            <p class="nt_1">男孩玩具</p>
+                            <p class="nt_2">男孩玩具</p>
+                        </li>
+                        <li>
+                            <p class="nt_1">女孩玩具</p>
+                            <p class="nt_2">女孩玩具</p>
+                        </li>
+                        <li>
+                            <p class="nt_1">送礼精选</p>
+                            <p class="nt_2">送礼精选</p>
+                        </li>
+                        <li>
+                            <p class="nt_1">家庭互动</p>
+                            <p class="nt_2">家庭互动</p>
+                        </li>
+                        <li>
+                            <p class="nt_1">低智启蒙</p>
+                            <p class="nt_2">低智启蒙</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nco3_b">
+                    <div class="width_max" style="width: 4950px;">
+                        <ul>
+                            <li>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1113.html" class="nc3d">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160603/5751451d41492.png">
+                                    <!--											<p> <span>0.00</span></p>-->
+                                </a>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/906.html">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779dc0c08c49.jpg">
+                                    <!--											<p>费雪音乐学习篮球架 <span>0.00</span></p>-->
+                                </a>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1062.html">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779dc7776575.jpg">
+                                    <!--											<p>伟易达变形恐龙-速龙 <span>0.00</span></p>-->
+                                </a>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1077.html">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779dcdd84d09.jpg">
+                                    <!--											<p>伟易达地球学习仪 <span>0.00</span></p>-->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1205.html" class="nc3d">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779de0519a13.jpg">
+                                    <!--											<p>费雪小狗皮皮学习桌 <span>0.00</span></p>-->
+                                </a><a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1108.html">
+                                <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779ddaf8f372.jpg">
+                                <!--											<p>费雪欢乐蹦跳园 <span>0.00</span></p>-->
+                            </a><a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1088.html">
+                                <img src="http://test.bjwanqu.com/Uploads//slide/20160704/5779f479a82c6.jpg">
+                                <!--											<p>费雪蹦跳学步乐园 <span>0.00</span></p>-->
+                            </a>									</li>
+                            <li>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/35.html" class="nc3d">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160512/573446c5023df.png">
+                                    <!--											<p>费雪小猴子 <span>0.00</span></p>-->
+                                </a>									</li>
+                            <li>
+                                <a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/21.html" class="nc3d">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160603/57514417bb647.png">
+                                    <!--											<p> <span>0.00</span></p>-->
+                                </a>									</li>
+                            <li>
+                                <a href="http://" class="nc3d">
+                                    <img src="http://test.bjwanqu.com/Uploads//slide/20160531/574d485ecf55c.jpg">
+                                    <!--											<p> <span>0.00</span></p>-->
+                                </a><a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/29.html">
+                                <img src="http://test.bjwanqu.com/Uploads//slide/20160520/573ec0e06b1eb.png">
+                                <!--											<p>小泰克虫虫琴 <span>0.00</span></p>-->
+                            </a><a href="http://test.bjwanqu.com/Index/goodDetails/goodsId/1022.html">
+                                <img src="http://test.bjwanqu.com/Uploads//slide/20160503/57286f026455b.jpg">
+                                <!--											<p>多功能小汽车 <span>0.00</span></p>-->
+                            </a>									</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <script>
+                    $(function(){
+                        var lil = $(".nco3_b .width_max ul li").length;
+                        $(".nco3_b .width_max").css("width",990*lil);
+                        $(".ncon_box3 .nco3 .nco3_t ul li").mousemove(function(){
+                            var thi = $(this).index();
+                            $(this).children('p.nt_1').css("top","58px").siblings('p.nt_2').css("top",0);
+                            $(this).siblings('li').children('p.nt_2').css("top","58px").siblings('p.nt_1').css("top",0);
+
+                            $(".width_max").css("left",-990*thi);
+                        });
+
+                        $(".nco3_b .width_max ul li a").hover(function(){
+                            $(this).css("opacity",1);
+                            $(this).siblings('a').css("opacity",0.5);
+                        },function(){
+                            $(this).css("opacity",1);
+                            $(this).siblings('a').css("opacity",1);
+                        });
+
+                    });
+                </script>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="ncon_box4">
+        <div class="center">
+            <div class="icdb fl"></div>
+            <div endtime="42734" class="daojs fl" id="atttime"><span>距离截止还有</span><p>10</p><i>:</i><p>53</p><i>:</i><p>44</p><i></i></div>
+            <a href="/Category/cateList/activity/1/store_id/1.html" class="more fr"></a>
+            <div class="clear"></div>
+
+            <div class="nco4">
+                <div class="nco4_l fl">
+                    <ul>
+                        <li><a href="/Index/goodDetails/goodsId/1207.html"><img src="http://test.bjwanqu.com/Uploads//brand/20160718/578c795b34ce3.png"></a><p><i>小泰克厨房洗衣中心</i><span><i>￥</i>9.55</span></p></li><li><a href="/Index/goodDetails/goodsId/1206.html"><img src="http://test.bjwanqu.com/Uploads//brand/20160718/578c7ab1680cf.png"></a><p><i>费雪趣味学习厨房（双语）</i><span><i>￥</i>3.80</span></p></li><li><a href="/Index/goodDetails/goodsId/1205.html"><img src="http://test.bjwanqu.com/Uploads//brand/20160718/578c7b30ec9e7.png"></a><p><i>费雪小狗皮皮学习桌 （双语）</i><span><i>￥</i>4.90</span></p></li>							</ul>
+                </div>
+                <div class="nco4_r fr">
+                    <p><span>1</span><span>2</span><span>3</span></p>
+                    <p><span>4</span><span>5</span><span>6</span></p>
+                    <p><span>7</span><span>8</span><span>9</span></p>
+                </div>
+            </div>
+            <script>
+
+                //var m = parseInt($("#atttime").attr('endtime'));
+
+                /*var times = parseInt($("#atttime").attr('endtime'));
+                 function timess(){
+                 times--;
+                 console.log(times);
+                 }
+                 setInterval(timess,1000);*/
+
+                var theTime = parseInt($("#atttime").attr('endtime'));// 秒
+                function formatSeconds(value) {
+                    theTime--;
+                    var theday,thehour,theend,themin,thesecond; //设置日期格式
+                    if(theTime > 1) {
+                        theday = parseInt(theTime/86400);//获取天数
+                        theday = (theday < 10) ? ('0' + theday) : theday;//三元运算小于两位+0
+                        theend = parseInt(theTime%86400); //theend对各个日期格式进行除余
+                        thehour = parseInt(theend/3600); //用除余的数值获取天数 以此类推
+                        thehour = (thehour < 10) ? ('0' + thehour) : thehour;
+                        theend = parseInt(theend%3600);
+                        themin = parseInt(theend/60);
+                        themin = (themin < 10) ? ('0' + themin) : themin;
+                        theend = parseInt(theend%60);
+                        thesecond = (theend < 10) ? ('0' + theend) : theend;
+                    }
+
+                    if(theTime>0){
+                        if(theday >0){
+                            var result = '<p>'+theday+'</p>'+'<i>天</i>'+'<p>'+thehour+'</p>'+'<i>:</i>'+'<p>'+themin+'</p>'+'<i>:</i>'+'<p>'+thesecond+'</p>'+'<i></i>';
+                        }else{
+                            var result = '<p>'+thehour+'</p>'+'<i>:</i>'+'<p>'+themin+'</p>'+'<i>:</i>'+'<p>'+thesecond+'</p>'+'<i></i>';
+                        }
+                    }else{
+                        var result = '<p>'+'00'+'</p>'+'<i>:</i>'+'<p>'+'00'+'</p>'+'<i>:</i>'+'<p>'+'00'+'</p>'+'<i></i>';
+                    }
+
+
+
+
+                    $("#atttime").html('<span>距离截止还有</span>'+result);
+                }
+                setInterval("formatSeconds()",1000);
+            </script>
+            <script>
+                $(".nco4_r p").mousemove(function(){
+                    var thi = $(this).index();
+                    $(this).css("background-position","0").siblings('p').css("background-position","-100px");
+                    $(".nco4 .nco4_l ul").css("top",-360*thi);
+                });
+            </script>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script>
+        $(".nco4 .nco4_l ul li").hover(function(){
+            $(this).css("opacity","1");
+            $(this).siblings('li').css("opacity","0.5");
+        },function(){
+            $(this).css("opacity","1");
+            $(this).siblings('li').css("opacity","1");
+        });
+    </script>
+
+
+    <!-- 新修改 by guoxc  20160730 -->
+    <div class="ncon_box5">
+        <div class="center">
+            <div class="quwan-special-title">
+                <span>特色套餐</span>
+                <i></i>
+            </div>
+            <div class="quwan-special-part1">
+                <div class="quwan-special-all-left">
+                    <div class="quwan-special-all-ltitle">家庭乐园</div>
+                    <div class="quwan-special-all-lline"></div>
+                    <div class="quwan-special-all-lamount">适合规模：1-3个宝宝</div>
+                    <div class="quwan-special-all-lprice">
+                        <div class="quwan-special-all-lpleft">￥：398.0</div>
+                        <div class="quwan-special-all-lpright">
+                            <Span>立即购买</Span>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="quwan-special-part1-right">
+                    <img src="images/quwan-special-top1.png" />
+                </div>
+            </div>
+            <div class="quwan-special-part2">
+                <div class="quwan-special-part2-left">
+                    <img src="images/quwan-special-top2.png" />
+                </div>
+                <div class="quwan-special-part2-right">
+                    <div class="quwan-special-all-left">
+                        <div class="quwan-special-all-ltitle">宝贝Party套餐</div>
+                        <div class="quwan-special-all-lline"></div>
+                        <div class="quwan-special-all-lamount">适合规模：1-3个宝宝</div>
+                        <div class="quwan-special-all-lprice">
+                            <div class="quwan-special-all-lpleft">￥：398.0</div>
+                            <div class="quwan-special-all-lpright">
+                                <Span>立即购买</Span>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quwan-special-part2-rbottom">
+                        <div class="quwan-special-part2-rb1">
+                            <img src="images/quwan-special-middle1.png"/>
+                        </div>
+                        <div class="quwan-special-part2-rb2">
+                            <img src="images/quwan-special-middle2.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quwan-special-part3">
+                <div class="quwan-special-part3-left">
+                    <div class="quwan-special-part3-lwrap">
+                        <img src="images/quwan-special-bottom1.png" />
+                        <div class="quwan-special-all-left">
+                            <div class="quwan-special-all-ltitle">商务套餐</div>
+                            <div class="quwan-special-all-lline"></div>
+                            <div class="quwan-special-all-lamount">适合规模：1-3个宝宝</div>
+                            <div class="quwan-special-all-lprice">
+                                <div class="quwan-special-all-lpleft">￥：398.0</div>
+                                <div class="quwan-special-all-lpright">
+                                    <Span>立即购买</Span>
+                                    <i></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quwan-special-part3-middle">
+                    <img src="images/quwan-special-bottom2.jpg" />
+                </div>
+                <div class="quwan-special-part3-bottom">
+                    <div class="quwan-special-part3-btop">
+                        <div class="quwan-special-all-left">
+                            <div class="quwan-special-all-ltitle">周末套餐</div>
+                            <div class="quwan-special-all-lline"></div>
+                            <div class="quwan-special-all-lamount">适合规模：1-3个宝宝</div>
+                            <div class="quwan-special-all-lprice">
+                                <div class="quwan-special-all-lpleft">￥：398.0</div>
+                                <div class="quwan-special-all-lpright">
+                                    <Span>立即购买</Span>
+                                    <i></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quwan-special-part3-bbottom">
+                        <img src="images/quwan-special-bottom3.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 新修改 by guoxc  20160730 -->
+    <div class="clear"></div>
+</div>
+
+
+<div class="ncon_box6">
+    <div class="center">
+        <div class="pinpai">
+            <ul>
+                <p><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/np7.jpg"></p>
+                <li><a href="/Category/cateList/brand_id/18.html"><img src="http://test.bjwanqu.com/Uploads/brand/20160628/5771ebcb34c66.png"></a></li><li><a href="/Category/cateList/brand_id/3.html"><img src="http://test.bjwanqu.com/Uploads/brand/20160613/575e5b58cbfe3.png"></a></li><li><a href="/Category/cateList/brand_id/5.html"><img src="http://test.bjwanqu.com/Uploads/brand/20160613/575e5b84d8ef5.png"></a></li><li><a href="/Category/cateList/brand_id/6.html"><img src="http://test.bjwanqu.com/Uploads/brand/20160628/5771ebb364e4b.png"></a></li>						</ul>
+        </div>
+
+        <div class="gongxjj">
+            <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/drwm.jpg" class="fl" style="width: 350px; margin-left: 25px;">
+            <div class="fr">
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/drwm1.jpg" width="227">
+                <p>玩趣专注于玩具租赁业务，是传统玩具行业的颠覆者与开拓者。我们汇集有乐高、费雪、小泰克、伟易达等国内外顶级玩具品牌，倡导节约、环保、时尚的分享经济理念。2013年12月23日，玩趣在北京开设首家店，经营面积200平方米，至今，玩趣实体门店已经覆盖京、津、冀、鲁、蒙等5个省市直辖市，门店数量达到12家，实体面积5000平米，拥有20000个会员家庭，消费用户200000余人次。玩具租赁的创新理念，越来越多的被年青父母们所接受。
+                    倾力打造节约、时尚、环保的玩具交互平台——玩趣。</p>
+            </div>
+        </div>
+    </div>
+    <div class="fanhui">
+        <div class="tiao"></div>
+        <div class="center">
+            <a href="/"><span>HOME</span>返回首页</a>
+            <a href="#"><span>TOP</span>返回顶部</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="con_box7">
+    <div class="center">
+        <div class="iz1"><i class="icon_z"></i></div>
+        <div class="iz2"><i class="icon_z"></i></div>
+        <div class="iz3"><i class="icon_z"></i></div>
+        <div class="iz4"><i class="icon_z"></i></div>
+    </div>
+</div>
+
+<div id="new_footer">
+    <div class="center">
+        <ul>
+            <li><a href="/Content/content/id/29.html">玩趣指南</a></li><li><a href="/Content/content/id/30.html">租赁须知</a></li><li><a href="/Content/content/id/31.html">会员介绍</a></li><li><a href="/Content/content/id/32.html">常见问题</a></li><li><a href="/Content/content/id/57.html">购物流程</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/34.html">配送方式</a></li><li><a href="/Content/content/id/35.html">自提自取</a></li><li><a href="/Content/content/id/36.html">标准配送</a></li><li><a href="/Content/content/id/38.html">配送费收取标准</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/39.html">支付方式</a></li><li><a href="/Content/content/id/40.html">押后付款</a></li><li><a href="/Content/content/id/41.html">会员支付</a></li><li><a href="/Content/content/id/43.html">押金说明</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/44.html">售后服务</a></li><li><a href="/Content/content/id/46.html">玩趣承诺</a></li><li><a href="/Content/content/id/47.html">工作时间</a></li><li><a href="/Content/content/id/48.html">热线电话</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/50.html">玩趣与您</a></li><li><a href="/Content/content/id/51.html">加盟玩趣</a></li><li><a href="/Content/content/id/52.html">关于我们</a></li>                        </ul>					<div class="saoma fr">
+        <p>手机玩趣</p>
+        <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg">
+    </div>
+    </div>
+</div>
+<div id="footers" style="text-align:center">
+    <div class="center">
+        <div class="copyright">
+            <span>玩趣玩具租赁        Tel: 010-57728819        E-mail: 625437377@qq.com</span>
+            <div class="clear"></div>
+            <span>©2003-2020 VMALLTOP.COM 版权所有</span>
+        </div>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_1.gif"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_2.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_3.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_4.gif"></a>
+    </div>
+</div>
+
+</body></html>

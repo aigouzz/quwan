@@ -1,0 +1,593 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="http://test.bjwanqu.com/Public/ThemeHome/default/images/wanqu.ico" type="image/x-icon">
+    <title>结算中心</title>
+    <script src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery-1.8.3.js"></script>
+    <!--首页列表轮播样式-->
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.cssAnimate.mini.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/js/jquery.themepunch.services.min.js"></script>
+    <script type="text/javascript" src="http://test.bjwanqu.com/Public/peyton_files/showBo.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://test.bjwanqu.com/Public/peyton_files/showBo.css">
+    <link rel="stylesheet" type="text/css" href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/settings.css" media="screen">
+    <!--首页列表轮播样式-->
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/focusStyle.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/content.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/new_style.css" rel="stylesheet" type="text/css">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/pageGroup.css" rel="stylesheet" type="text/css">
+    <style>
+        #wheader .center{
+            width: 990px;
+        }
+        #footers .center{
+            width: 990px;
+        }
+        #wheader .wh_l p.no_ho:hover {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<div id="wheader">
+    <div class="center">
+        <div class="wh_l fl">
+            <a href="/">玩趣首页</a>
+            <p class="no_ho">欢迎来到玩趣</p>
+            <a href="/Login/index.html">152****1718</a>
+            <a href="/User/index.html">个人中心</a>
+            <a href="/User/logout.html">退出</a>					</div>
+        <div class="wh_r fr">
+            <a href="/Cart/index.html" class="gwc"><i class="icon_z"></i>购物车1件</a>
+            <a href="/Store/storeList.html">线下店</a>
+            <p class="scj">收藏夹<i class="icon_z"></i><span><a href="/User/userCollect.html">收藏的宝贝</a><a href="/User/userCollectStore.html">收藏的店铺</a></span></p><p>
+            <a href="#" class="sjb"><i class="icon_z"></i>手机版	<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg" class="codeMobile" width="200"></a>
+        </p><p>全国热线：010-57728819</p>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+<div id="new_top">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/index_css.css" rel="stylesheet" type="text/css">
+
+    <div class="wtop">
+        <div class="center">
+            <div class="nlogo fl">
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/nlogo.png">
+            </div>
+            <div class="np_1 fl">
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/np1.png">
+            </div>
+            <div class="ssc fr">
+                <form action="/Category/cateList" method="get">
+                    <input type="text" value="" name="kw" class="tests">
+                    <input type="submit" value="搜玩具" class="btns">
+                </form>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!--签到-->
+<style type="text/css">
+    #addresstab{width:100%; }
+    #addresstab>ul{list-style:none; display:block;height:30px;line-height:30px;
+        border-bottom:2px #C88 solid;}
+    #addresstab>ul>li{background:#FFF;
+        cursor:pointer;float:left;
+        list-style:none;
+        height:29px; line-height:29px;padding:0px 10px;
+        margin:0px 10px; border:1px solid #BBB; border-bottom:2px solid #C88;}
+    #addresstab>ul>li.on{border-top:2px solid gray; border-bottom:2px solid #FFF;}
+    #addresstab #firstPage{width:100%; border-top:none;
+        padding:1px; border:1px solid #336699;padding:1px;}
+    #addresstab #secondPage{width:100%; border-top:none;
+        padding:1px; border:1px solid #336699;padding:1px;}
+    .hide{display:none;}
+    .show{display:block;}
+</style>
+<script type="text/javascript">
+    // JS实现选项卡切换
+    window.onload = function(){
+        var myTab = document.getElementById("addresstab");    //整个div
+        var firstLi = document.getElementById("firstli");    //数组
+        var secondLi = document.getElementById("secondli");    //数组
+        var firstDiv = document.getElementById("firstPage"); //数组
+        var secondDiv = document.getElementById("secondPage"); //数组
+        var logistics_type = document.getElementById("logistics_type");    //整个div
+        //alert("1");
+        firstLi.onclick = function(){
+            this.className="on";
+            secondLi.className = "off";
+
+            firstDiv.className = "show";
+            secondDiv.className = "hide";
+
+            logistics_type.value=1;
+        }
+        secondLi.onclick = function(){
+            firstLi.className="off";
+            this.className = "on";
+
+            firstDiv.className = "hide";
+            secondDiv.className = "show";
+
+            logistics_type.value=2;
+        }
+    }
+</script>
+<div id="content">
+    <form id="formOrder">
+        <input type="hidden" name="addr_id" value="218">
+        <input type="hidden" name="shop_id" value="20">
+        <input type="hidden" name="payment_id" value="47">
+        <input type="hidden" name="logistics_type" id="logistics_type" value="1">
+        <div class="center" style="width: 1000px;" id="alltab">
+            <p class="dd_title">填写并核对订单信息</p>
+            <div class="dd_box">
+                <div id="addresstab">
+                    <ul>
+                        <li id="firstli" class="on" value="1">快递</li>
+                        <li id="secondli" class="off" value="2">自提</li>
+                    </ul>
+                    <div id="firstPage" class="show">
+                        <div class="dd_title">
+                            <p>收货人信息</p>
+                            <a href="/User/userAddress?reBack=http%3A%2F%2Ftest.bjwanqu.com%2FCart%2Fbalance">新增收货地址</a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="address">
+                            <ul style="height: 40px;">
+                                <li>
+                                    <p class="add_name name_style" addr_id="218">郭熏超<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                    <p class="add_chil">
+                                        <span>北京市/北京市/丰台区</span>
+                                        <span>望园东里31号楼4单元703</span>
+                                        <span>152****1718</span>
+                                    </p>
+                                    <div class="add_r">
+                                        <p class="add_she" addr_id="218">设为默认收货地址</p>
+                                        <a href="/User/userAddress/id/218?reBack=http%3A%2F%2Ftest.bjwanqu.com%2FCart%2Fbalance">编辑</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>								</ul>
+                            <p class="add_more"><span>更多地址</span><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xtb.jpg" style="transform: rotate(0deg);"></p>
+                            <div class="clear"></div>
+                        </div>
+                        <script>
+                            $("p.add_more").toggle(function(){
+                                $(this).children('span').text('收起地址');
+                                $(this).children('img').css("transform","rotate(180deg)");
+                                $(".address ul").css("height","auto");
+                            },function(){
+                                $(this).children('span').text('更多地址');
+                                $(this).children('img').css("transform","rotate(0deg)");
+                                $(".address ul").css("height","40px");
+                            });
+                            $(".address ul li .add_r p.add_she").click(function(){
+                                $.post("/User/is_default.html",{addr_id:$(this).attr('addr_id')},function(){
+                                    location.reload();
+                                })
+                                //$(this).parent('.add_r').siblings('p.add_name').addClass('name_style').parent('li').siblings('li').children('p.add_name').removeClass('name_style');
+                            });
+
+                            $(".address ul li .add_name").click(function(){
+                                $.post("/User/is_default.html",{addr_id:$(this).attr('addr_id')},function(){
+                                    location.reload();
+                                })
+                            });
+
+                        </script>
+                    </div>
+                    <div id="secondPage" class="hide">
+                        <div class="dd_title">
+                            <p>到店提货信息</p>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="address">
+                            <ul style="height: 40px;">
+                                <li>
+                                    <p class="add_name name_style" shop_id="20">上地店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                    <p class="add_chil">
+                                        <span>北京市海淀区上地华联三层</span>
+                                        <span>010-57239953</span>
+                                    </p>
+                                    <div class="add_r">
+                                        <p class="add_she" shop_id="20">设为默认提货地址</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li><li>
+                                <p class="add_name " shop_id="19">天街店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>北京市朝阳区朝阳北路长楹天街购物中心西区三层</span>
+                                    <span>010-53322609</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="19">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="21">田村店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>北京市海淀区田村路京粮广场二层</span>
+                                    <span>010-56286957</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="21">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="22">卢沟桥店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>北京市丰台区晓月中路西里3号楼润福霖超市二层</span>
+                                    <span>010-57030062</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="22">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="23">燕郊店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>河北省燕郊天洋广场A馆1层</span>
+                                    <span>0316-5991250</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="23">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="24">任丘绿洲店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>河北省任丘市新绿洲时代广场三层</span>
+                                    <span>0317-3377056</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="24">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="25">任丘蕾莎店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>河北省任丘市蕾莎.汇生活三层</span>
+                                    <span>0317-2892299</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="25">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="26">山东济南店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>济南市历下区窖头路西口宝贝王快乐三六五广场二层</span>
+                                    <span>13057398976</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="26">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="27">鄂尔多斯店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>内蒙鄂尔多斯东胜区迎宾路23号益客隆儿童商城一层A08</span>
+                                    <span>13661060789</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="27">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li><li>
+                                <p class="add_name " shop_id="28">呼和浩特店<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></p>
+                                <p class="add_chil">
+                                    <span>内蒙呼和浩特市赛罕区南二环与丰州路交叉口金游华联超市外租区</span>
+                                    <span>0471-3971642</span>
+                                </p>
+                                <div class="add_r">
+                                    <p class="add_she" shop_id="28">设为默认提货地址</p>
+                                </div>
+                                <div class="clear"></div>
+                            </li>								</ul>
+                            <p class="add_more"><span>更多地址</span><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xtb.jpg"></p>
+                            <div class="clear"></div>
+                        </div>
+                        <script>
+                            $("p.add_more").toggle(function(){
+                                $(this).children('span').text('收起地址');
+                                $(this).children('img').css("transform","rotate(180deg)");
+                                $(".address ul").css("height","auto");
+                            },function(){
+                                $(this).children('span').text('更多地址');
+                                $(this).children('img').css("transform","rotate(0deg)");
+                                $(".address ul").css("height","40px");
+                            });
+                            $(".address ul li .add_r p.add_she").click(function(){
+                                $.post("/User/is_default_shop.html",{shop_id:$(this).attr('shop_id')},function(){
+                                    location.reload();
+                                })
+                                //$(this).parent('.add_r').siblings('p.add_name').addClass('name_style').parent('li').siblings('li').children('p.add_name').removeClass('name_style');
+
+                            });
+
+                            $(".address ul li .add_name").click(function(){
+                                $.post("/User/is_default_shop.html",{shop_id:$(this).attr('shop_id')},function(){
+                                    location.reload();
+                                })
+                            });
+
+                        </script>
+
+                    </div>
+                </div>
+                <div class="dd_title paymentss">
+                    <p>支付方式</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="payment paymentss">
+                    <div class="pay_box">
+                        <ul>
+                            <li class="pay_style" payid="47">支付宝即时到账<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/xz.png"></li>								<div class="clear"></div>
+                        </ul>
+                    </div>
+                    <script>
+                        $('.pay_box ul li').click(function(){
+                            $(this).addClass('pay_style').siblings('li').removeClass('pay_style');
+                            $("#payment_id").val($(this).attr('payId'));//修改支付方式
+                        });
+                    </script>
+                </div>
+                <div class="dd_title">
+                    <p>确认订单信息</p>
+                    <a href="/Cart/index.html">返回修改购物车</a>
+                    <div class="clear"></div>
+                </div>
+                <div class="d_box">
+                    <div class="dbox_r">
+                        <p class="rbox_t">商家：玩趣聚宝盆</p>
+                        <!----总租借天数---->
+                        <div class="rbox_chil">
+                            <img onclick="location='/Index/goodDetails/goodsId/906.html'" width="82" src="/Uploads/goods/20160628/57721b9c9bb6b.png">
+                            <p class="dd_titt">租借&nbsp;&nbsp;&nbsp;费雪音乐学习篮球架（双语）<br><br></p>
+                            <p class="dd_qian"><i>押金￥</i>260.00</p>
+                            <p>X<i class="num">1</i></p>
+                            <p>现货</p>
+                        </div>						</div>						<div class="clear"></div>
+                </div>
+            </div>
+            <!--<div class="haizi">
+                <p class="dd_title1">确认孩子信息</p>
+                <div class="h_inp">
+                    <span>孩子姓名</span>
+                    <input name='childName' type="text" value="" />
+                    <p>*必填</p>
+                </div>
+                <div class="h_inp">
+                    <span>孩子年龄</span>
+                    <input name='childAge' type="text" value="" />
+                    <p>*必填</p>
+                </div>
+                <div class="h_inp">
+                    <span>孩子性别</span>
+                    <label><input type="radio" name="sex" value='1'/>男</label>
+                    <label><input type="radio" name="sex" value='2'/>女</label>
+                    <p>*必填</p>
+                </div>
+            </div>-->
+            <div class="youhuiq">
+                <div class="yhq" id="mms" style="display:none;">
+                    <p class="xiala"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/zengj.jpg" style="transform: rotate(135deg);">使用优惠券</p>
+                    <p class="keyong">可用优惠券<span></span><i></i></p>
+                    <div class="xlc">
+                        <ul style="height: auto;">
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    $(function(){
+                        $(".yhq p.xiala").children('img').css("transform","rotate(135deg)");
+                        $(".yhq p.xiala").siblings('.xlc').children('ul').css("height","auto");
+                    })
+                    $(".yhq p.xiala").toggle(function(){
+                        $(this).children('img').css("transform","rotate(135deg)");
+                        $(this).siblings('.xlc').children('ul').css("height","auto");
+                    },function(){
+                        $(this).children('img').css("transform","rotate(0deg)");
+                        $(this).siblings('.xlc').children('ul').css("height","41px");
+                    });
+                    function showYouHui(){
+                        $("#mms").show();
+                    }
+                </script>
+            </div>
+            <div class="youhuiq">
+                <div class="yhq" id="vip">
+                    <p class="xiala"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/zengj.jpg" style="transform: rotate(135deg);">使用vip优惠卡</p>
+                    <div class="xlc">
+                        <ul style="height: auto;">
+                        </ul>
+                    </div>
+                </div>
+                <input type="hidden" name="status1" id="status1" value="0">
+                <input type="hidden" name="status2" id="status2" value="0">
+                <input type="hidden" name="status3" id="status3" value="0">
+                <input type="hidden" name="pattern" id="pattern" value="1">
+                <script>
+                    $(".yhq p.xiala").toggle(function(){
+                        $(this).children('img').css("transform","rotate(135deg)");
+                        $(this).siblings('.xlc').children('ul').css("height","auto");
+                    },function(){
+                        $(this).children('img').css("transform","rotate(0deg)");
+                        $(this).siblings('.xlc').children('ul').css("height","41px");
+                    });
+                </script>
+            </div>
+            <div class="xiaojie">
+                <div class="jie">
+                    <p><span>￥260</span><span class="jie_l"><i id="totleNum">1</i>件商品，总商品金额：</span></p>
+                    <p><span>￥10</span><span class="jie_l"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/tb1.jpg" onclick="showGuide()">运费：</span></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="dd_button">
+                <input type="hidden" id="heji1" value="270">
+                <input type="hidden" id="submitss" name="submitss" value="0">
+                <input type="button" id="saveForm" value="立即支付">
+                <p>应付金额：<span>￥<i id="heji">270</i></span></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </form></div>
+
+
+<div class="con_box7">
+    <div class="center">
+        <div class="iz1"><i class="icon_z"></i></div>
+        <div class="iz2"><i class="icon_z"></i></div>
+        <div class="iz3"><i class="icon_z"></i></div>
+        <div class="iz4"><i class="icon_z"></i></div>
+    </div>
+</div>
+
+<div id="new_footer">
+    <div class="center">
+        <ul>
+            <li><a href="/Content/content/id/29.html">玩趣指南</a></li><li><a href="/Content/content/id/30.html">租赁须知</a></li><li><a href="/Content/content/id/31.html">会员介绍</a></li><li><a href="/Content/content/id/32.html">常见问题</a></li><li><a href="/Content/content/id/57.html">购物流程</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/34.html">配送方式</a></li><li><a href="/Content/content/id/35.html">自提自取</a></li><li><a href="/Content/content/id/36.html">标准配送</a></li><li><a href="/Content/content/id/38.html">配送费收取标准</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/39.html">支付方式</a></li><li><a href="/Content/content/id/40.html">押后付款</a></li><li><a href="/Content/content/id/41.html">会员支付</a></li><li><a href="/Content/content/id/43.html">押金说明</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/44.html">售后服务</a></li><li><a href="/Content/content/id/46.html">玩趣承诺</a></li><li><a href="/Content/content/id/47.html">工作时间</a></li><li><a href="/Content/content/id/48.html">热线电话</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/50.html">玩趣与您</a></li><li><a href="/Content/content/id/51.html">加盟玩趣</a></li><li><a href="/Content/content/id/52.html">关于我们</a></li>                        </ul>					<div class="saoma fr">
+        <p>手机玩趣</p>
+        <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg">
+    </div>
+    </div>
+</div>
+
+<style type="text/css">
+    #footers {
+        padding: 20px 0px;
+        background: #000000;
+    }
+</style>
+<!--		<div class="right_nav">
+			<div class="right_cen">
+				<a href="#"><i class="icon_z"></i>购<br/>物<br/>车</a>
+				<p>
+					<a href="#" class="icon_z xihuan"></a>
+					<a href="#" class="icon_z shouc"></a>
+					<a href="#" class="icon_z zuijin"></a>
+				</p>
+			</div>
+		</div>-->
+<div id="footers" style="text-align:center">
+    <div class="center">
+        <div class="copyright">
+            <span>玩趣玩具租赁        Tel: 010-57728819        E-mail: 625437377@qq.com</span>
+            <div class="clear"></div>
+            <span>©2003-2020 VMALLTOP.COM 版权所有</span>
+        </div>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_1.gif"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_2.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_3.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_4.gif"></a>
+    </div>
+</div>
+
+
+
+
+<script>
+    $(function(){
+        var totalNum=0;
+        $(".num").each(function(){
+            totalNum=totalNum+Number($(this).text());
+        })
+        $("#totleNum").text(totalNum);
+    })
+    //运费规则
+    function showGuide(){
+        window.open("/Index/showGuide/id/11.html");
+    }
+    //更改使用vip卡
+    $("#vip :checkbox").click(function(){
+        if($(this).prop("checked")){
+            $("#status"+$(this).attr('status')).val(1);
+        }else{
+            $("#status"+$(this).attr('status')).val(0);
+        }
+        if(parseInt($("#status1").val()) + parseInt($("#status2").val()) > 0 ){
+            $("#mms :checkbox").attr("checked",false);;
+        }
+        price=$("#mms :checkbox:checked").attr("price") ? $("#mms :checkbox:checked").attr("price") : 0;
+        getViceMoney(price);
+    })
+    //根据vip卡使用情况计算金额
+    function getViceMoney(youhui){
+        data='{"1":{"1541":{"goods_id":"906","goods_name":"\u8d39\u96ea\u97f3\u4e50\u5b66\u4e60\u7bee\u7403\u67b6\uff08\u53cc\u8bed\uff09","qingdan":null,"grandpa_id":"70","cate_id":"70","brand_id":"3","if_show":"1","default_image":"\/goods\/20160628\/57721b9c9bb6b.png","market_price":"499.00","priceday":"3.99","minDay":"7","maxDay":"30","var":"1","price":"260.00","stock":"8","sku":"X6158","sousuo":null,"if_recommend":"0","if_hot":"0","weight":2.4,"sort_order":"0","fare_id":"14","pattern":"1","both":"0","store_id":"1","add_time":"1467095760","last_update":"1467106679","activity":"0","size":"1","if_index":"0","goods_sex":"3","erp_sku_code":"41*20*33","image":[{"image_id":"1238","goods_id":"906","image_url":"\/goods\/20160628\/57721b9c9bb6b.png","thumbnail":"\/goods\/20160628\/tub\/57721b9c9bb6b_400_400.png","sort_order":"0"},{"image_id":"1239","goods_id":"906","image_url":"\/goods\/20160628\/57721ba507b43.png","thumbnail":"\/goods\/20160628\/tub\/57721ba507b43_400_400.png","sort_order":"0"},{"image_id":"1240","goods_id":"906","image_url":"\/goods\/20160628\/57721e15d2035.png","thumbnail":"\/goods\/20160628\/tub\/57721e15d2035_400_400.png","sort_order":"0"},{"image_id":"1241","goods_id":"906","image_url":"\/goods\/20160628\/57721e1a874f5.png","thumbnail":"\/goods\/20160628\/tub\/57721e1a874f5_400_400.png","sort_order":"0"}],"spec":null,"spec_type":null,"statistics":{"goods_id":"906","views":"36","carts":"0","orders":"0","sales":"0","comments":null,"commentsNum":"0","comAll":"0"},"start_time":null,"quantity":"1","cart_id":"1541","spec_id":"0","store_name":"\u73a9\u8da3\u805a\u5b9d\u76c6","total_price":260}}}';
+        $.post("/Cart/getViceMoney.html",{status1:$("#status1").val(),status2:$("#status2").val(),status3:$("#status3").val(),youhui:youhui,data:data},function(data){
+            var allmon = parseInt(($("#heji1").val()-data)>=0 ? ($("#heji1").val()-data) :($("#heji1").val()-data));
+            if(allmon > 0 ){
+                $('.paymentss').show();
+            }else{
+                $('.paymentss').hide();
+                allmon=0;
+            }
+            $("#heji").text(allmon);
+        })
+    }
+    //选择使用优惠券;
+    $("#mms :checkbox").click(function(){
+//        $("#vip :checkbox").each(function(){
+//            alert($(this).val());
+//        })
+        $(".stoppp" ).attr("checked",false);
+        $("#status1").val(0);
+        $("#status2").val(0);
+        var price=$(this).attr("price");
+        if($(this).attr("checked")){
+            $("#mms :checkbox").attr("checked",false);;
+            $(this).attr("checked",true);
+        }else{
+            $("#mms :checkbox").attr("checked",false);;
+            price = 0;
+        }
+        //alert(price);return false;
+        if("1"==2 && $(this).prop('checked')){
+            //$("#heji1").val($("#heji1").val()-price);
+            $("#heji1").val(270-price);
+        }else{
+            $("#heji1").val(270);
+            var price=0;
+        }
+        getViceMoney(price);
+    })
+    $("#saveForm").click(function(){
+        var submitss = $("#submitss").val();
+        if(submitss>0){
+            //alert('不要重复提交');
+            return false;
+        }else{
+            $("#submitss").val(1);
+        }
+        var da=$("#formOrder").serialize();
+        $.ajax({
+            type: "POST",
+            url: "/Order/index.html",
+            data: da,
+            dataType:'json',
+            success: function(data){
+                if(data.flag==1){
+                    location.href="/Pay/index/"+data.msg;
+                }else{
+                    Showbo.Msg.alert(data.msg);
+                }
+            }
+        });
+    })
+</script>
+</body>
+</html>
