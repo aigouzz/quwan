@@ -595,33 +595,33 @@
             <span>新增收货人信息</span>
         </div>
         <div class="ui-dialog-content">
-            <div class="form" id="consignee-form" name="consignee-form" style="height: 200px">
-                <div class="item" id="name_div">
+            <div class="form" name="consignee-form" style="height: 200px">
+                <div class="item">
                     <span class="label"><span style="color:red">*</span>收货人：</span>
                     <div class="fl">
-                        <input type="text" class="itxt" id="consignee_name" name="consigneeParam.name" maxlength="20" value="">
-                        <span class="error-msg" id="name_div_error"></span>
+                        <input type="text" class="itxt"  name="consigneeParam.name" maxlength="20" value="">
+                        <span class="error-msg"></span>
                     </div>
                 </div>
                 <div class="item">
-                    <span class="label" id="address_div"><span style="color:red">*</span>&nbsp;详细地址：</span>
+                    <span class="label"><span style="color:red">*</span>&nbsp;详细地址：</span>
                     <div class="fl">
                         <!--span id="areaNameTxt"></span-->
-                        <input type="text" class="itxt itxt02" id="consignee_address" name="consigneeParam.address" maxlength="50" onblur="check_Consignee('address_div')" value="">
-                        <span class="error-msg" id="address_div_error"></span>
+                        <input type="text" class="itxt itxt02" name="consigneeParam.address" maxlength="50" onblur="check_Consignee('address_div')" value="">
+                        <span class="error-msg"></span>
                     </div>
                 </div>
-                <div class="item" id="call_div">
+                <div class="item">
                     <span class="label"><span style="color:red">*</span>&nbsp;手机号码：</span>
                     <div class="fl">
-                        <input type="text" class="itxt " id="consignee_mobile" name="consigneeParam.mobile" onblur="check_Consignee('call_mobile_div')" onfocus="if(value == defaultValue){value='';}" maxlength="11" value="">
+                        <input type="text" class="itxt " name="consigneeParam.mobile" onblur="check_Consignee('call_mobile_div')" onfocus="if(value == defaultValue){value='';}" maxlength="11" value="">
                     </div>
                 </div>
                 <div class="item">
                     <span class="label">&nbsp;</span>
                     <div class="fl">
                         <a href="javascript:void(0)" class="btn-9">
-                            <span id="saveConsigneeTitleDiv">保存收货人信息</span>
+                            <span>保存收货人信息</span>
                         </a>
                         <div class="loading loading-1" style="display:none">
                             <b></b>正在提交信息，请等待！

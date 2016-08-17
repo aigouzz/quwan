@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>
+        填写订单
+    </title>
+    <meta name="author" content="m.jd.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/wap-calculate.css">
+    <link rel="stylesheet" type="text/css" href="css/wap-header.css">
+</head>
+<body id="body">
+<header>
+    <div id="m_common_header">
+        <header class="jd-header">
+            <div class="jd-header-bar">
+                <a href="#" id="m_common_header_goback" class="jd-header-icon-back">
+                    <span></span>
+                </a>
+                <div class="jd-header-title">使用优惠券</div>
+            </div>
+        </header>
+    </div>
+</header>
+<div class="common-wrapper pad52" id="couponParentDiv">
+    <div class="coupon-tab bdb-1px">
+        <ul>
+            <li class="" id="quanTabLiId">
+                <a href="javascript:" class="available">可用优惠券（0）</a>
+            </li>
+            <li id="noQuanTabLiId" class="curr">
+                <a href="javascript:" class="available">不可用优惠券（1）</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="availablequan" class="tab-con" style="display: none;">
+        <div class="no-coupon">
+            <div class="nc-img"></div>
+            <p>很遗憾</p>
+            <span>您暂无可以使用的优惠券</span>
+        </div>
+    </div>
+
+
+    <div id="notavailablequan" class="tab-con">
+        <div class="cou-tip02">
+            优惠券
+        </div>
+
+        <div class="cou-item border-1px">
+            <div class="coupons-content change-no-m">
+                <div class="coupons-price change-no-m">
+                    <span class="coupons-price-icon blue-icon-dong">优惠券</span>
+                    <span class="coupons-price-200">满199减100</span>
+
+                </div>
+                <div class="coupons-range cf change-no-m">
+                    <span class="coupons-range-use">使用范围：</span>
+                    <span class="coupons-range-content">去玩</span>
+                </div>
+                <div class="coupons-date cf change-no-m">
+                    <span class="coupons-date-name">有效期至：</span>
+                    <span class="coupons-date-content">2016/08/17</span>
+                </div>
+
+                <div class="coupons-nomake cf">
+                    <span>所结算商品限制不能使用优惠券</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+    var $keyong = $('#quanTabLiId');
+    var $bukeyong = $('#noQuanTabLiId');
+    var $kelist = $('#availablequan');
+    var $bulist = $('#notavailablequan');
+    $keyong.on('touchstart click', function () {
+        $(this).addClass('curr');
+        $bukeyong.removeClass('curr');
+        $kelist.show();
+        $bulist.hide();
+    });
+    $bukeyong.on('touchstart click', function () {
+        $(this).addClass('curr');
+        $keyong.removeClass('curr');
+        $bulist.show();
+        $kelist.hide();
+    });
+</script>
+</body>
+</html>
