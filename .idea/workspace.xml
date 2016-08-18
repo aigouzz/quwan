@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/wap地址编辑或添加.html" line="104" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73c918a-f9f3-4762-8e6b-3a1f12d2db2a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pc-index-guoxc.css" afterPath="$PROJECT_DIR$/css/pc-index-guoxc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pc-index-guoxc.less" afterPath="$PROJECT_DIR$/less/pc-index-guoxc.less" />
-    </list>
+    <list default="true" id="b73c918a-f9f3-4762-8e6b-3a1f12d2db2a" name="Default" comment="" />
     <ignored path="趣玩.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
