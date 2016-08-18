@@ -6,20 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b73c918a-f9f3-4762-8e6b-3a1f12d2db2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/wap-calculate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/wap-header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/wap-region.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap使用优惠券.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap地址列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap地址编辑或添加.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap结算页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap选择配送.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wap-index.css" afterPath="$PROJECT_DIR$/css/wap-index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wap-pay.css" afterPath="$PROJECT_DIR$/css/wap-pay.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wap-index.less" afterPath="$PROJECT_DIR$/less/wap-index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wap-pay.less" afterPath="$PROJECT_DIR$/less/wap-pay.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc结算页1.html" afterPath="$PROJECT_DIR$/pc结算页1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/rainyday.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wap-calculate.css" afterPath="$PROJECT_DIR$/css/wap-calculate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap选择配送.html" afterPath="$PROJECT_DIR$/wap选择配送.html" />
     </list>
     <ignored path="趣玩.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wap-支付页面.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wap-支付页面.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wap-pay.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/wap-pay.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +45,7 @@
       <file leaf-file-name="wap结算页.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap结算页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1290324">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding>
                 <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -85,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wap地址编辑或添加.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wap地址编辑或添加.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap地址编辑或添加.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30555555">
+            <state vertical-scroll-proportion="-8.5161295">
               <caret line="12" column="63" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -100,10 +74,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rainyday.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/rainyday.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.171875">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#RainyDay#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="wap-calculate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/wap-calculate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="123.83607">
+            <state vertical-scroll-proportion="0.0">
               <caret line="183" column="61041" selection-start-line="183" selection-start-column="61041" selection-end-line="183" selection-end-column="61041" />
               <folding>
                 <element signature="e#6523#8026#1" expanded="true" />
@@ -113,19 +99,6 @@
                 <element signature="e#21479#22798#1" expanded="true" />
                 <element signature="e#23884#25319#1" expanded="true" />
                 <element signature="e#27238#28857#1" expanded="true" />
-                <element signature="e#30475#32246#1" expanded="true" />
-                <element signature="e#35249#36576#1" expanded="true" />
-                <element signature="e#37119#39338#1" expanded="true" />
-                <element signature="e#39433#42116#1" expanded="true" />
-                <element signature="e#42193#45728#1" expanded="true" />
-                <element signature="e#46340#48439#1" expanded="true" />
-                <element signature="e#50515#52266#1" expanded="true" />
-                <element signature="e#52343#54090#1" expanded="true" />
-                <element signature="e#54685#56012#1" expanded="true" />
-                <element signature="e#56173#57500#1" expanded="true" />
-                <element signature="e#58209#66232#1" expanded="true" />
-                <element signature="e#67551#69274#1" expanded="true" />
-                <element signature="e#74096#75599#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +107,7 @@
       <file leaf-file-name="wap-region.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/wap-region.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8032787">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="28" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
@@ -144,8 +117,8 @@
       <file leaf-file-name="wap选择配送.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap选择配送.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="11" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -156,7 +129,7 @@
       <file leaf-file-name="wap使用优惠券.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap使用优惠券.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.16129">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -169,7 +142,7 @@
       <file leaf-file-name="wap-index.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/wap-index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.129032">
+            <state vertical-scroll-proportion="0.0">
               <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding />
             </state>
@@ -179,7 +152,7 @@
       <file leaf-file-name="wap地址列表.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap地址列表.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.096774">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -196,6 +169,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -218,6 +192,7 @@
         <option value="$PROJECT_DIR$/css/wap-region.css" />
         <option value="$PROJECT_DIR$/css/wap-calculate.css" />
         <option value="$PROJECT_DIR$/wap地址编辑或添加.html" />
+        <option value="$PROJECT_DIR$/js/rainyday.js" />
       </list>
     </option>
   </component>
@@ -287,6 +262,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quwan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quwan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,18 +380,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -421,6 +410,83 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wap地址编辑或添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wap-calculate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="61041" selection-start-line="183" selection-start-column="61041" selection-end-line="183" selection-end-column="61041" />
+          <folding>
+            <element signature="e#6523#8026#1" expanded="true" />
+            <element signature="e#12868#15115#1" expanded="true" />
+            <element signature="e#16374#19009#1" expanded="true" />
+            <element signature="e#19712#21255#1" expanded="true" />
+            <element signature="e#21479#22798#1" expanded="true" />
+            <element signature="e#23884#25319#1" expanded="true" />
+            <element signature="e#27238#28857#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wap-region.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap选择配送.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap使用优惠券.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/wap-index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap地址列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pc结算页1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -428,17 +494,6 @@
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -491,19 +546,6 @@
             <element signature="e#21479#22798#1" expanded="true" />
             <element signature="e#23884#25319#1" expanded="true" />
             <element signature="e#27238#28857#1" expanded="true" />
-            <element signature="e#30475#32246#1" expanded="true" />
-            <element signature="e#35249#36576#1" expanded="true" />
-            <element signature="e#37119#39338#1" expanded="true" />
-            <element signature="e#39433#42116#1" expanded="true" />
-            <element signature="e#42193#45728#1" expanded="true" />
-            <element signature="e#46340#48439#1" expanded="true" />
-            <element signature="e#50515#52266#1" expanded="true" />
-            <element signature="e#52343#54090#1" expanded="true" />
-            <element signature="e#54685#56012#1" expanded="true" />
-            <element signature="e#56173#57500#1" expanded="true" />
-            <element signature="e#58209#66232#1" expanded="true" />
-            <element signature="e#67551#69274#1" expanded="true" />
-            <element signature="e#74096#75599#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc详情页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="196" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc列表页.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -587,17 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="294" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc详情页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="196" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc列表页.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -709,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc详情页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.935484">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="196" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/wap-index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -727,17 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6598803">
           <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#1234#2823#1" expanded="false" />
-            <element signature="e#2858#4447#1" expanded="false" />
-            <element signature="e#4477#6066#1" expanded="false" />
-            <element signature="e#6204#7793#1" expanded="false" />
-            <element signature="e#7828#9417#1" expanded="false" />
-            <element signature="e#9447#11036#1" expanded="false" />
-            <element signature="e#16774#18155#1" expanded="false" />
-            <element signature="e#18190#19571#1" expanded="false" />
-            <element signature="e#19601#20982#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,17 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07630058">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wap结算页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1290324">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding>
             <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -822,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/wap-index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.129032">
+        <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding />
         </state>
@@ -830,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wap使用优惠券.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.16129">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -841,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wap选择配送.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -851,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/wap-region.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8032787">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
@@ -859,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/wap-calculate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="123.83607">
+        <state vertical-scroll-proportion="0.0">
           <caret line="183" column="61041" selection-start-line="183" selection-start-column="61041" selection-end-line="183" selection-end-column="61041" />
           <folding>
             <element signature="e#6523#8026#1" expanded="true" />
@@ -869,26 +857,13 @@
             <element signature="e#21479#22798#1" expanded="true" />
             <element signature="e#23884#25319#1" expanded="true" />
             <element signature="e#27238#28857#1" expanded="true" />
-            <element signature="e#30475#32246#1" expanded="true" />
-            <element signature="e#35249#36576#1" expanded="true" />
-            <element signature="e#37119#39338#1" expanded="true" />
-            <element signature="e#39433#42116#1" expanded="true" />
-            <element signature="e#42193#45728#1" expanded="true" />
-            <element signature="e#46340#48439#1" expanded="true" />
-            <element signature="e#50515#52266#1" expanded="true" />
-            <element signature="e#52343#54090#1" expanded="true" />
-            <element signature="e#54685#56012#1" expanded="true" />
-            <element signature="e#56173#57500#1" expanded="true" />
-            <element signature="e#58209#66232#1" expanded="true" />
-            <element signature="e#67551#69274#1" expanded="true" />
-            <element signature="e#74096#75599#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wap地址列表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -899,13 +874,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wap地址编辑或添加.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30555555">
+        <state vertical-scroll-proportion="-8.5161295">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/rainyday.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.171875">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#RainyDay#0" expanded="false" />
           </folding>
         </state>
       </provider>
