@@ -1,0 +1,758 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>订单结算页</title>
+    <link rel="shortcut icon" href="http://test.bjwanqu.com/Public/ThemeHome/default/images/wanqu.ico" type="image/x-icon">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/new_style.css" rel="stylesheet" type="text/css">
+
+    <link href="css/pc-index-guoxc.css" rel="stylesheet" type="text/css">
+    <link href="css/jd-buy.css" rel="stylesheet" type="text/css">
+    <link href="css/dialog.css" rel="stylesheet" type="text/css">
+    <link href="css/jd-panel.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wheader">
+    <div class="center">
+        <div class="wh_l fl">
+            <a href="/">玩趣首页</a>
+            <p class="no_ho">欢迎来到玩趣</p>
+            <a href="/Login/index.html">152****1718</a>
+            <a href="/User/index.html">个人中心</a>
+            <a href="/User/logout.html">退出</a>					</div>
+        <div class="wh_r fr">
+            <a href="/Cart/index.html" class="gwc"><i class="icon_z"></i>购物车1件</a>
+            <a href="/Store/storeList.html">线下店</a>
+            <p class="scj">收藏夹<i class="icon_z"></i><span><a href="/User/userCollect.html">收藏的宝贝</a><a href="/User/userCollectStore.html">收藏的店铺</a></span></p><p>
+            <a href="#" class="sjb"><i class="icon_z"></i>手机版	<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg" class="codeMobile" width="200"></a>
+        </p><p>全国热线：010-57728819</p>
+        </div>
+    </div>
+</div>
+<!-- 新修改by guoxc  20160730  -->
+<div id="new_top">
+    <div class="wtop">
+        <div class="center clearfix">
+            <div class="nlogo fl">
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/nlogo.png">
+            </div>
+            <div class="np_1 fl">
+                <img src="images/quwan-title.png">
+            </div>
+            <div class="ssc fr">
+                <form action="/Category/cateList" method="get">
+                    <input type="text" value="" name="kw" class="tests">
+                    <input type="submit" value="" class="btns">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- 新修改by guoxc  20160730  -->
+<div id="container">
+    <div id="content" class="w">
+        <div class="checkout-tit">
+            <span class="tit-txt">填写并核对订单信息</span>
+        </div>
+        <div class="checkout-steps">
+            <div class="step-tit">
+                <h3>收货人信息</h3>
+                <div class="extra-r" id="newaddadd">
+                    <a href="javascript:void(0)" class="ftx-05">新增收货地址</a>
+                </div>
+            </div>
+            <div class="step-cont">
+                <div id="consignee-addr" class="consignee-content">
+                    <div class="consignee-scrollbar">
+                        <div class="ui-scrollbar-main">
+                            <div class="consignee-scroll">
+                                <div class="consignee-cont" id="consignee1" style="height: 42px;">
+                                    <ul id="consignee-list">
+                                        <li class="ui-switchable-panel ui-switchable-panel-selected item-selected" selected="selected">
+                                            <div class="consignee-item">
+                                                <span title="家里">家里</span>
+                                                <b></b>
+                                            </div>
+                                            <div class="addr-detail">
+                                                <span class="addr-name" title="郭熏超">郭熏超</span>
+                                                <span class="addr-info" title="北京 丰台区 二环到三环 望园东里31号楼4单元703">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <span class="addr-tel">152****1718</span>
+                                                <span class="addr-default">默认地址</span>
+                                            </div>
+                                            <div class="op-btns">
+                                                <a href="javascript:void(0)" class="ftx-05 setdefault-consignee">设为默认地址</a>
+                                                <a href="javascript:void(0)" class="ftx-05 edit-consignee">编辑</a>
+                                                <a href="javascript:void(0)" class="ftx-05 del-consignee">删除</a>
+                                            </div>
+                                        </li>
+                                        <li class="ui-switchable-panel">
+                                            <div class="consignee-item">
+                                                <span title="家里">家里</span>
+                                                <b></b>
+                                            </div>
+                                            <div class="addr-detail">
+                                                <span class="addr-name" title="郭熏超">郭熏超</span>
+                                                <span class="addr-info" title="北京 丰台区 二环到三环 望园东里31号楼4单元703">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <span class="addr-tel">152****1718</span>
+                                                <span class="addr-default">默认地址</span>
+                                            </div>
+                                            <div class="op-btns">
+                                                <a href="javascript:void(0)" class="ftx-05 setdefault-consignee">设为默认地址</a>
+                                                <a href="javascript:void(0)" class="ftx-05 edit-consignee">编辑</a>
+                                                <a href="javascript:void(0)" class="ftx-05 del-consignee">删除</a>
+                                            </div>
+                                        </li>
+                                        <li class="ui-switchable-panel">
+                                            <div class="consignee-item">
+                                                <span title="家里">家里</span>
+                                                <b></b>
+                                            </div>
+                                            <div class="addr-detail">
+                                                <span class="addr-name" title="郭熏超">郭熏超</span>
+                                                <span class="addr-info" title="北京 丰台区 二环到三环 望园东里31号楼4单元703">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <span class="addr-tel">152****1718</span>
+                                                <span class="addr-default">默认地址</span>
+                                            </div>
+                                            <div class="op-btns">
+                                                <a href="javascript:void(0)" class="ftx-05 setdefault-consignee">设为默认地址</a>
+                                                <a href="javascript:void(0)" class="ftx-05 edit-consignee">编辑</a>
+                                                <a href="javascript:void(0)" class="ftx-05 del-consignee">删除</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="addr-switch switch-on js-consigneeItemAllClick">
+                    <span>更多地址</span><b></b>
+                </div>
+                <div class="addr-switch switch-off hide js-consigneeItemHideClick">
+                    <span>收起地址</span><b></b>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="step-tit">
+                <h3>选择自提</h3>
+            </div>
+            <div class="step-cont">
+                <div id="selfget-addr" class="consignee-content">
+                    <div class="consignee-scrollbar">
+                        <div class="ui-scrollbar-main">
+                            <div class="consignee-scroll">
+                                <div class="consignee-cont" id="selfget1" style="height: 42px;">
+                                    <ul id="selfget-list">
+                                        <li class="ui-switchable-panel ui-switchable-panel-selected">
+                                            <div class="consignee-item self-location">
+                                                <span title="家里">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <b></b>
+                                            </div>
+                                        </li>
+                                        <li class="ui-switchable-panel ui-switchable-panel-selected">
+                                            <div class="consignee-item self-location">
+                                                <span title="家里">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <b></b>
+                                            </div>
+                                        </li>
+                                        <li class="ui-switchable-panel ui-switchable-panel-selected">
+                                            <div class="consignee-item self-location">
+                                                <span title="家里">北京 丰台区 二环到三环 望园东里31号楼4单元703</span>
+                                                <b></b>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="addr-switch switch-on js-consigneeItemAllClick">
+                    <span>更多地址</span><b></b>
+                </div>
+                <div class="addr-switch switch-off hide js-consigneeItemHideClick">
+                    <span>收起地址</span><b></b>
+                </div>
+
+            </div>
+            <div class="hr"></div>
+            <div id="shipAndSkuInfo">
+                <div id="payShipAndSkuInfo">
+                    <div class="step-tit">
+                        <h3>支付方式</h3>
+                    </div>
+                    <div class="step-cont">
+                        <div class="payment-list">
+                            <div class="list-cont">
+                                <ul id="payment-list">
+                                    <li style="cursor: pointer;" >
+                                        <div class="payment-item item-selected online-payment">
+                                            <b></b>
+                                            支付宝即时到帐
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="step-tit">
+                        <h3>送货清单</h3>
+                        <div class="extra-r">
+                            <a href="#" id="cartRetureUrl" class="return-edit ftx-05">返回修改购物车</a>
+                        </div>
+                    </div>
+                    <div class="step-cont" id="skuPayAndShipment-cont">
+                        <div class="shopping-lists" id="shopping-lists">
+                            <div class="shopping-list ABTest">
+                                <div class="goods-list">
+                                    <div class="goods-tit">
+                                        <h4 class="vendor_name_h">商家：京东自营</h4>
+                                    </div>
+                                    <div class="goods-items"> </div>
+                                    <div class="goods-items">
+                                        <div class="goods-suit goods-last">
+                                            <div class="goods-suit-tit"></div>
+                                            <div class="goods-item goods-item-extra" >
+                                                <div class="p-img">
+                                                    <a target="_blank" href="#">
+                                                        <img src="//img14.360buyimg.com/N4/jfs/t2638/52/440566838/213857/9d650bf1/57149773N2a8197dc.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="goods-msg">
+                                                    <div class="goods-msg-gel">
+                                                        <div class="p-name">
+                                                            <a href="#" target="_blank">
+                                                                科沃斯（Ecovacs）地宝魔镜S（CEN540-LG）扫地机器人家用吸尘器全自动智能拖地机
+                                                            </a>
+                                                        </div>
+                                                        <div class="p-price">
+                                                            <strong class="jd-price">￥1099.00</strong>
+                                                            <span class="p-num">x1</span>
+                                                            <span id="pre-state" class="p-state">有货</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="p-icon p-icon-w"></i>
+                                                    <span class="ftx-04">7天无理由退货</span>
+                                                </div>
+
+                                                <div class="clr"></div>
+                                                <div class="gift-item ftx-03">
+                                                    <p>【赠品】&nbsp;德尔玛（Deerma）DEM-F100 加湿器 家用 迷你 静音 ×1</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dis-modes">
+                                    <div class="mode-item mode-tab">
+                                        <div class="mode-item-tit">
+                                            <h4>配送方式</h4>
+                                        </div>
+                                        <div class="mode-tab-nav">
+                                            <ul>
+                                                <li class="mode-tab-item curr" id="jd_shipment_item">
+                                                    <span id="jdShip-span-tip" class="m-txt">京东快递
+                                                        <i class="qmark-icon qmark-tip" data-tips="此订单支持预约配送，您可以选择指定的时间段"></i>
+                                                    </span>
+                                                    <b></b>
+                                                </li>
+                                                <li class="mode-tab-item curr hide" id="pick_shipment_item">
+                                                    <span class="m-txt">上门自提
+                                                        <i class="qmark-icon qmark-tip"></i>
+                                                    </span>
+                                                    <b></b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mode-tab-con  ui-switchable-panel-selected" id="jd_shipment">
+                                            <ul class="mode-list">
+                                                <li>
+                                                    <div class="fore1" id="jd_shipment_calendar_date">
+                                                        <span class="ftx-03">配送时间：</span>
+                                                        预计 8月4日[周四] 09:00-15:00 送达
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="mode-tab-con hide" id="selfpick_shipment">
+                                            <ul class="mode-list">
+                                                <li>
+                                                    <div class="fore1" id="selfpick_date"><span class="ftx-03">自提时间：</span>8月4日[周四]</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--dis-modes 结束-->
+                                <div class="clr"></div>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-tit step-toggle-on" id="virtualdiv">
+                <h3>使用优惠/抵用</h3>
+            </div>
+            <div class="step-cont order-virtual">
+                <div class="order-virtual-tabs">
+                    <ul>
+                        <li class="ui-switchable-item curr" id="couponitem"><span>优惠券</span></li>
+                        <li class="ui-switchable-item" id="leftitem"><span>账户余额支付</span></li>
+                        <li class="ui-switchable-item" id="yearitem"><span>会员年卡支付</span></li>
+                        <li class="ui-switchable-item" id="chargeitem"><span>充值卡支付</span></li>
+                    </ul>
+                </div>
+                <div class="ui-switchable-panel-main">
+                    <div class="coupon-main ui-switchable-panel">
+                        <div class="coupon-cont">
+                            <div class="coupon-tab ml20">
+                                <ul>
+                                    <li class="coupon-tab-item curr">满减券</li>
+                                    <li class="coupon-tab-item" >金额券</li>
+                                </ul>
+                            </div>
+                            <div class="coupon-tab-panel-main ml20" id="coupons">
+                                <div class="coupon-tab-panel ui-switchable-panel-selected">
+                                    <div class="coupon-scrollbar">
+                                        <div class="ui-scrollbar-main">
+                                            <div class="coupon-scroll">
+                                                <!--可用优惠券 -->
+                                                <div class="coupon-enable">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="coupon-item">
+                                                                <div class="c-detail item-selected">
+                                                                    <div class="c-msg c-dong">
+                                                                        <div class="c-top-dong"></div>
+                                                                        <div class="item-selected-cancel hide">取消勾选</div>
+                                                                        <div class="c-price">
+                                                                            <em>￥100</em>
+                                                                        </div>
+                                                                        <div class="c-limit">
+                                                                            <span>
+                                                                            满199
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="c-time c-time-dong">
+                                                                            <span>有效期至2016-08-17</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c-type c-type-dong">
+                                                                        <span class="c-type-l">玩去</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="c-info"></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="hide">
+                                                            <div class="coupon-item">
+                                                                <div class="c-detail">
+                                                                    <div class="c-msg c-dong">
+                                                                        <div class="c-top-dong"></div>
+                                                                        <div class="item-selected-cancel hide">取消勾选</div>
+                                                                        <div class="c-price">
+                                                                            <em>￥100</em>
+                                                                        </div>
+                                                                        <div class="c-limit">
+                                                                            <span>
+                                                                            满199
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="c-time c-time-dong">
+                                                                            <span>有效期至2016-08-17</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c-type c-type-dong">
+                                                                        <span class="c-type-l">玩去</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="c-info"></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="balance-main ui-switchable-panel hide">
+                        <div class="form v-balance ml20">
+                            <input id="selectOrderBalance" type="checkbox" class="jdcheckbox" value="">
+                            <label for="selectOrderBalance">&nbsp;使用余额（账户当前余额：<span class="ftx-01">0.00</span>元）</label>
+                        </div>
+                    </div>
+                    <div class="balance-main ui-switchable-panel hide">
+                        <div class="form v-balance ml20">
+                            <input id="selectOne" type="checkbox" class="jdcheckbox" value="">
+                            <label for="selectOne">&nbsp;使用一年年卡</label>
+                        </div>
+                        <div class="form v-balance ml20">
+                            <input id="selectTwo" type="checkbox" class="jdcheckbox" value="">
+                            <label for="selectTwo">&nbsp;使用两年年卡</label>
+                        </div>
+                    </div>
+                    <div class="balance-main ui-switchable-panel hide">
+                        <div class="form v-balance ml20">
+                            <input id="select50" type="checkbox" class="jdcheckbox" value="">
+                            <label for="select50">&nbsp;使用50元充值卡</label>
+                        </div>
+                        <div class="form v-balance ml20">
+                            <input id="select100" type="checkbox" class="jdcheckbox" value="" >
+                            <label for="select100">&nbsp;使用100元充值卡</label>
+                        </div>
+                    </div>
+                    <div class="virtual-usedcont">
+                        <span class="virtual-usedcont-price">金额抵用<em id="total">￥0.00</em></span>
+                        <ul>
+                            <li id="couponTotalShow" style="display: none;">使用优惠券<em></em>张，优惠<em></em>元 </li>
+                            <li id="freeFreightShow" style="display: none;">| 使用免运费券<em></em>1张，抵用运费<em></em>元 </li>
+                            <li id="giftCardShow" style="display: none;">| 使用京东E卡<em></em>张，抵用<em></em>元</li>
+                            <li id="jdBeanShow" style="display: none;">| 使用京豆，抵用<em></em>元</li><li>
+                        </li><li id="balanceShow" style="display: none;">| 使用余额，抵用<em></em>元</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-summary">
+            <div class="statistic fr">
+                <div class="list">
+                    <span><em class="ftx-01">1</em> 件商品，总商品金额：</span>
+                    <em class="price" id="warePriceId" v="1099">￥1099.00</em>
+                </div>
+                <div class="list">
+                    <span>运费：</span>
+                    <em class="price" id="freightPriceId"><font color="#000000"> ￥0.00</font></em>
+                </div>
+                <div class="list" id="showCouponPrice" style="display:none;">
+                    <input id="couponPriceNum" type="hidden" value="0">
+                    <input id="couponPricehidden" type="hidden" value="0">
+                    <span>商品优惠：</span><em class="price" id="couponPriceId" style="display: none;">-￥0.00</em>
+                </div>
+                <div class="list" id="showFreeFreight" style="display:none;">
+                    <input id="freeFreightPriceNum" type="hidden" value="0">
+                    <input id="freeFreightPricehidden" type="hidden" value="0">
+                    <span>运费优惠：</span><em class="price" id="freeFreightPriceId">-￥0.00</em>
+                </div>
+                <div class="list" id="showGiftCardPrice" style="display:none;">
+                    <input id="giftCardPricehidden" type="hidden" value="0">
+                    <input id="giftCardPriceNum" type="hidden" value="0">
+                    <span> 礼品卡： </span><em class="price" id="giftCardPriceId">-￥0.00</em>
+                </div>
+                <div class="list" id="showUsedJdBean" style="display:none;">
+                    <input type="hidden" id="jdBeanexChange" value="0.00">
+                    <span>京豆：</span><em class="price" id="usedJdBeanId">-￥0.00</em>
+                </div>
+                <div class="list" id="showUsedOrderBalance" style="display:none;">
+                    <input type="hidden" id="useBalanceShowDiscount" value="0.00">
+                    <span>余额：</span><em class="price" id="usedBalanceId">-￥0.00</em>
+                </div>
+                <div class="list" id="showPeriodFee" style="display:none;">
+                    <span>分期手续费(由分期银行收取)：</span><em class="price" id="periodFee">￥0.00</em>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div class="trade-foot">
+            <div class="trade-foot-detail-com">
+                <div class="fc-price-info">
+                    <span class="price-tit">应付总额：</span>
+                    <span class="price-num" id="sumPayPriceId">￥1099.00</span>
+                </div>
+                <div class="fc-consignee-info">
+                    <span class="mr20" id="sendAddr">寄送至： 北京 丰台区 二环到三环   望园东里31号楼4单元703</span>
+                    <span id="sendMobile">收货人：郭熏超 152****1718</span>
+                </div>
+            </div>
+            <div id="checkout-floatbar" class="group">
+                <div class="ui-ceilinglamp checkout-buttons">
+                    <div class="sticky-placeholder hide" style="display: none;">
+                    </div>
+                    <div class="sticky-wrap">
+                        <div class="inner">
+                            <button type="submit" class="checkout-submit" id="order-submit">
+                                提交订单<b></b>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="backpanel">
+            <div id="backpanel-inner">
+                <div class="bp-item" data-top="0">
+                    <a href="javascript:void(0)" class="backtop" target="_self">返回顶部</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- /main -->
+<!-- footer -->
+<div class="con_box7">
+    <div class="center">
+        <div class="iz1"><i class="icon_z"></i></div>
+        <div class="iz2"><i class="icon_z"></i></div>
+        <div class="iz3"><i class="icon_z"></i></div>
+        <div class="iz4"><i class="icon_z"></i></div>
+    </div>
+</div>
+<div id="new_footer">
+    <div class="center">
+        <ul>
+            <li><a href="/Content/content/id/29.html">玩趣指南</a></li><li><a href="/Content/content/id/30.html">租赁须知</a></li><li><a href="/Content/content/id/31.html">会员介绍</a></li><li><a href="/Content/content/id/32.html">常见问题</a></li><li><a href="/Content/content/id/57.html">购物流程</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/34.html">配送方式</a></li><li><a href="/Content/content/id/35.html">自提自取</a></li><li><a href="/Content/content/id/36.html">标准配送</a></li><li><a href="/Content/content/id/38.html">配送费收取标准</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/39.html">支付方式</a></li><li><a href="/Content/content/id/40.html">押后付款</a></li><li><a href="/Content/content/id/41.html">会员支付</a></li><li><a href="/Content/content/id/43.html">押金说明</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/44.html">售后服务</a></li><li><a href="/Content/content/id/46.html">玩趣承诺</a></li><li><a href="/Content/content/id/47.html">工作时间</a></li><li><a href="/Content/content/id/48.html">热线电话</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/50.html">玩趣与您</a></li><li><a href="/Content/content/id/51.html">加盟玩趣</a></li><li><a href="/Content/content/id/52.html">关于我们</a></li>                        </ul>					<div class="saoma fr">
+        <p>手机玩趣</p>
+        <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg">
+    </div>
+    </div>
+</div>
+<div id="footers" style="text-align:center">
+    <div class="center">
+        <div class="copyright">
+            <span>玩趣玩具租赁        Tel: 010-57728819        E-mail: 625437377@qq.com</span>
+            <div class="clear"></div>
+            <span>©2003-2020 VMALLTOP.COM 版权所有</span>
+        </div>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_1.gif"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_2.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_3.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_4.gif"></a>
+    </div>
+</div>
+<!-- footer end -->
+<!-- 弹层 -->
+<div class="mask" id="mask1">
+    <div class="mask-out"></div>
+    <div class="ui-dialog">
+        <div class="ui-dialog-title">
+            <span>新增收货人信息</span>
+        </div>
+        <div class="ui-dialog-content">
+            <div class="form" id="consignee-form" name="consignee-form" style="height: 200px">
+                <div class="item" id="name_div">
+                    <span class="label"><span style="color:red">*</span>收货人：</span>
+                    <div class="fl">
+                        <input type="text" class="itxt" id="consignee_name" name="consigneeParam.name" maxlength="20" value="">
+                        <span class="error-msg" id="name_div_error"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label" id="address_div"><span style="color:red">*</span>&nbsp;详细地址：</span>
+                    <div class="fl">
+                        <!--span id="areaNameTxt"></span-->
+                        <input type="text" class="itxt itxt02" id="consignee_address" name="consigneeParam.address" maxlength="50" onblur="check_Consignee('address_div')" value="">
+                        <span class="error-msg" id="address_div_error"></span>
+                    </div>
+                </div>
+                <div class="item" id="call_div">
+                    <span class="label"><span style="color:red">*</span>&nbsp;手机号码：</span>
+                    <div class="fl">
+                        <input type="text" class="itxt " id="consignee_mobile" name="consigneeParam.mobile" onblur="check_Consignee('call_mobile_div')" onfocus="if(value == defaultValue){value='';}" maxlength="11" value="">
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">&nbsp;</span>
+                    <div class="fl">
+                        <a href="javascript:void(0)" class="btn-9">
+                            <span id="saveConsigneeTitleDiv">保存收货人信息</span>
+                        </a>
+                        <div class="loading loading-1" style="display:none">
+                            <b></b>正在提交信息，请等待！
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a class="ui-dialog-close" title="关闭">
+            <span class="ui-icon ui-icon-delete"></span>
+        </a>
+    </div>
+</div>
+<div class="mask" id="mask2">
+    <div class="mask-out"></div>
+    <div class="ui-dialog">
+        <div class="ui-dialog-title">
+            <span>新增收货人信息</span>
+        </div>
+        <div class="ui-dialog-content">
+            <div class="form" name="consignee-form" style="height: 200px">
+                <div class="item">
+                    <span class="label"><span style="color:red">*</span>收货人：</span>
+                    <div class="fl">
+                        <input type="text" class="itxt"  name="consigneeParam.name" maxlength="20" value="">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label"><span style="color:red">*</span>&nbsp;详细地址：</span>
+                    <div class="fl">
+                        <!--span id="areaNameTxt"></span-->
+                        <input type="text" class="itxt itxt02" name="consigneeParam.address" maxlength="50" onblur="check_Consignee('address_div')" value="">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label"><span style="color:red">*</span>&nbsp;手机号码：</span>
+                    <div class="fl">
+                        <input type="text" class="itxt " name="consigneeParam.mobile" onblur="check_Consignee('call_mobile_div')" onfocus="if(value == defaultValue){value='';}" maxlength="11" value="">
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">&nbsp;</span>
+                    <div class="fl">
+                        <a href="javascript:void(0)" class="btn-9">
+                            <span>保存收货人信息</span>
+                        </a>
+                        <div class="loading loading-1" style="display:none">
+                            <b></b>正在提交信息，请等待！
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a class="ui-dialog-close" title="关闭">
+            <span class="ui-icon ui-icon-delete"></span>
+        </a>
+    </div>
+</div>
+<!-- 弹层end -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    var $allclick = $('.js-consigneeItemAllClick');
+    var $hideclick = $('.js-consigneeItemHideClick');
+    /* 返回顶部 */
+    $('.backtop').click(function () {
+        $('body').animate({
+            scrollTop:0
+        },500);
+    });
+    /* 返回顶部end */
+    /* 点击收货人信息和自提 */
+    var $consignee1 = $('#consignee1');
+    var $selfget1 = $('#selfget1');
+    var $delieve1 = $('.ui-switchable-panel',$consignee1);
+    var $delieve2 = $('.ui-switchable-panel',$selfget1);
+    var $jdship = $('#jd_shipment_item');
+    var $selfship = $('#pick_shipment_item');
+    var $jdtime = $('#jd_shipment');
+    var $selftime = $('#selfpick_shipment');
+    $delieve1.each(function () {
+        $(this).find('.consignee-item').click(function () {
+            $delieve1.removeClass('item-selected');
+            $delieve2.removeClass('item-selected');
+            $(this).parent().addClass('item-selected');
+            $jdship.show();
+            $jdtime.show();
+            $selfship.hide();
+            $selftime.hide();
+        });
+    });
+    $delieve2.each(function () {
+        $(this).find('.consignee-item').click(function () {
+            $delieve1.removeClass('item-selected');
+            $delieve2.removeClass('item-selected');
+            $(this).parent().addClass('item-selected');
+            $jdship.hide();
+            $jdtime.hide();
+            $selfship.show();
+            $selftime.show();
+        });
+    });
+    /* 点击收起和展开 */
+    $allclick.each(function () {
+        var $wrapall = $(this).siblings('.js-consigneeItemHideClick');
+        var $list = $(this).siblings('.consignee-content').find('.consignee-cont');
+        $(this).click(function () {
+            $(this).hide();
+            $wrapall.show();
+            $list.css('height','auto');
+        });
+    });
+    $hideclick.each(function () {
+        var $wrapall = $(this).siblings('.js-consigneeItemAllClick');
+        var $list = $(this).siblings('.consignee-content').find('.consignee-cont');
+        $(this).click(function () {
+            var $li = $list.find('li');
+            $(this).hide();
+            $wrapall.show();
+            $list.css('height','42px');
+            $li.each(function () {
+                if($(this).hasClass('item-selected')){
+                    if($(this).index() != 0){
+                        $(this).insertBefore($($li[0]));
+                    }
+                }
+            });
+        });
+    });
+    /* 点击收起和展开end */
+    var $items = $('.ui-switchable-item');
+    var $panels = $('.ui-switchable-panel-main .ui-switchable-panel');
+    var $first = $('.coupon-tab-item');
+    var $second = $('.coupon-enable ul li');
+    var $secondselect = $second.find('.c-detail');
+    $items.click(function () {
+        $items.removeClass('curr');
+        $(this).addClass('curr');
+        $panels.hide();
+        $panels.eq($(this).index()).show();
+    });
+    $first.click(function () {
+        $first.removeClass('curr');
+        $(this).addClass('curr');
+        $second.hide();
+        $second.eq($(this).index()).show();
+    });
+    $second.find('.coupon-item').click(function () {
+        $secondselect.removeClass('curr');
+        $second.find('.c-detail').removeClass('item-selected');
+        $(this).find('.c-detail').addClass('item-selected');
+    });
+    /* 最后导航控制end */
+    /* 弹窗控制 */
+    var $add = $('#newaddadd');
+    var $setdefault = $('.setdefault-consignee');
+    var $bianji = $('.edit-consignee');
+    var $delete = $('.del-consignee');
+    var $close = $('.ui-dialog-close');
+    $setdefault.click(function () {
+        $delieve1.removeClass('ui-switchable-panel-selected');
+        $(this).parents('.ui-switchable-panel').addClass('ui-switchable-panel-selected');
+    });
+    $add.click(function () {
+        $('#mask1').show();
+    });
+    $bianji.click(function () {
+        $('#mask2').show();
+    });
+    $delete.click(function () {
+
+    });
+    $close.click(function () {
+        $(this).parents('.mask').hide();
+    });
+    /* 弹窗控制end */
+</script>
+</body>
+</html>

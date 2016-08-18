@@ -1,0 +1,151 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>订单支付页</title>
+    <link rel="shortcut icon" href="http://test.bjwanqu.com/Public/ThemeHome/default/images/wanqu.ico" type="image/x-icon">
+    <link href="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/css/new_style.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/pc-index-guoxc.css" rel="stylesheet" type="text/css">
+    <link href="css/pc-pay.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wheader">
+    <div class="center">
+        <div class="wh_l fl">
+            <a href="/">玩趣首页</a>
+            <p class="no_ho">欢迎来到玩趣</p>
+            <a href="/Login/index.html">152****1718</a>
+            <a href="/User/index.html">个人中心</a>
+            <a href="/User/logout.html">退出</a>					</div>
+        <div class="wh_r fr">
+            <a href="/Cart/index.html" class="gwc"><i class="icon_z"></i>购物车1件</a>
+            <a href="/Store/storeList.html">线下店</a>
+            <p class="scj">收藏夹<i class="icon_z"></i><span><a href="/User/userCollect.html">收藏的宝贝</a><a href="/User/userCollectStore.html">收藏的店铺</a></span></p><p>
+            <a href="#" class="sjb"><i class="icon_z"></i>手机版	<img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg" class="codeMobile" width="200"></a>
+        </p><p>全国热线：010-57728819</p>
+        </div>
+    </div>
+</div>
+<!-- 新修改by guoxc  20160730  -->
+<div id="new_top">
+    <div class="wtop">
+        <div class="center clearfix">
+            <div class="nlogo fl">
+                <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/nlogo.png">
+            </div>
+            <div class="np_1 fl">
+                <img src="images/quwan-title.png">
+            </div>
+            <div class="ssc fr">
+                <form action="/Category/cateList" method="get">
+                    <input type="text" value="" name="kw" class="tests">
+                    <input type="submit" value="" class="btns">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- 新修改by guoxc  20160730  -->
+<div class="main">
+    <div class="w">
+        <!-- order 订单信息 -->
+        <div class="order clearfix">
+            <div class="o-left">
+                <h3 class="o-title">
+                    订单提交成功，请您尽快付款！订单号：20971065046
+                </h3>
+                <p class="o-tips">
+                    请您在提交订单后<span class="font-red">24小时</span>内完成支付，否则订单会自动取消。
+                </p>
+            </div>
+            <div class="o-right">
+                <div class="o-price">
+                    <em>应付金额</em><strong>100.00</strong><em>元</em>
+                </div>
+            </div>
+            <div class="clr"></div>
+            <div class="o-list j_orderList" id="listPayOrderInfo" style="display: block;">
+                <!-- 单笔订单 -->
+                <div class="o-list-info">
+                    <span class="mr10" id="shdz">收货地址：北京宣武区内环到三环里西直门内大街168号腾达大厦30层</span>
+                    <span class="mr10" id="shr">收货人：郭熏超</span>
+                    <span id="mobile">152****1718</span>
+                </div>
+                <div class="o-list-info">
+                    <span id="spmc">商品名称：红双喜横拍双面反胶乒乓球拍弧圈结合快攻4星A4002（单块装）（新老包装随机发R4002）</span>
+                </div>
+                <!-- 单笔订单 end -->
+            </div>
+        </div>
+        <!-- payment 支付方式选择 -->
+        <div class="payment">
+            <div class="payment-wrap">
+                <div class="payment-wtitle">
+                    支付方式：支付宝支付
+                </div>
+                <div class="payment-wtext">
+                    一共支付：<span>100</span>元
+                </div>
+                <div class="payment-winput clearfix">
+                    <span>账号：</span>
+                    <input type="text" placeholder="请输入账号" />
+                </div>
+                <div class="payment-winput clearfix">
+                    <span>密码：</span>
+                    <input type="password" placeholder="请输入密码" />
+                </div>
+            </div>
+            <!-- paybox 银行卡 end -->
+            <!-- pay-verify 支付验证提交 -->
+            <div class="pay-verify" id="pay-verify-typeCredit">
+                <div class="pv-button" id="pv-button-submitPay">
+                    <input type="submit" value="立即支付" id="paySubmit" class="ui-button ui-button-XL" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- /main -->
+<!-- footer -->
+<div class="con_box7">
+    <div class="center">
+        <div class="iz1"><i class="icon_z"></i></div>
+        <div class="iz2"><i class="icon_z"></i></div>
+        <div class="iz3"><i class="icon_z"></i></div>
+        <div class="iz4"><i class="icon_z"></i></div>
+    </div>
+</div>
+<div id="new_footer">
+    <div class="center">
+        <ul>
+            <li><a href="/Content/content/id/29.html">玩趣指南</a></li><li><a href="/Content/content/id/30.html">租赁须知</a></li><li><a href="/Content/content/id/31.html">会员介绍</a></li><li><a href="/Content/content/id/32.html">常见问题</a></li><li><a href="/Content/content/id/57.html">购物流程</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/34.html">配送方式</a></li><li><a href="/Content/content/id/35.html">自提自取</a></li><li><a href="/Content/content/id/36.html">标准配送</a></li><li><a href="/Content/content/id/38.html">配送费收取标准</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/39.html">支付方式</a></li><li><a href="/Content/content/id/40.html">押后付款</a></li><li><a href="/Content/content/id/41.html">会员支付</a></li><li><a href="/Content/content/id/43.html">押金说明</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/44.html">售后服务</a></li><li><a href="/Content/content/id/46.html">玩趣承诺</a></li><li><a href="/Content/content/id/47.html">工作时间</a></li><li><a href="/Content/content/id/48.html">热线电话</a></li>                        </ul><ul>
+        <li><a href="/Content/content/id/50.html">玩趣与您</a></li><li><a href="/Content/content/id/51.html">加盟玩趣</a></li><li><a href="/Content/content/id/52.html">关于我们</a></li>                        </ul>					<div class="saoma fr">
+        <p>手机玩趣</p>
+        <img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/newindex/xiaorwm.jpg">
+    </div>
+    </div>
+</div>
+<div id="footers" style="text-align:center">
+    <div class="center">
+        <div class="copyright">
+            <span>玩趣玩具租赁        Tel: 010-57728819        E-mail: 625437377@qq.com</span>
+            <div class="clear"></div>
+            <span>©2003-2020 VMALLTOP.COM 版权所有</span>
+        </div>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_1.gif"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_2.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_3.jpg"></a>
+        <a href="javascript:;" class="wj"><img src="http://test.bjwanqu.com/Public/ThemeHome/defaultpc/images/footer_4.gif"></a>
+    </div>
+</div>
+<!-- footer end -->
+</body>
+</html>

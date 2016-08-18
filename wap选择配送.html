@@ -1,0 +1,154 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>
+        填写订单
+    </title>
+    <meta name="author" content="m.jd.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/wap-calculate.css">
+    <link rel="stylesheet" type="text/css" href="css/wap-header.css">
+</head>
+<body id="body">
+<header>
+    <div id="m_common_header">
+        <header class="jd-header">
+            <div class="jd-header-bar">
+                <a href="#" id="m_common_header_goback" class="jd-header-icon-back">
+                    <span></span>
+                </a>
+                <div class="jd-header-title">选择配送方式</div>
+            </div>
+        </header>
+    </div>
+</header>
+<div class="common-wrapper">
+    <div class="p-way-wrap">
+        <div class="p-way s-way border-1px">
+            <div class="p-way-txt">
+                <div class="p-t-pic w15"><img src="//st.360buyimg.com/order/images/order/payShipment/sent_icon.png"></div>
+                <h2>配送方式</h2>
+            </div>
+
+            <div class="m bdb-1px">
+                <div class="mb sw-btn">
+                    <a href="javascript:;" class="btn3 btn3-ch btn3-ch01">京东快递</a>
+                    <a href="javascript:;" class="btn3 btn3-ch02">上门自提</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-way s-way border-1px sendlocation">
+            <div class="p-way-txt">
+                <h2>快递地址列表</h2>
+            </div>
+            <div class="m bdb-1px">
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location" />
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="p-way s-way border-1px selflocation" style="display: none">
+            <div class="p-way-txt">
+                <h2>自提地址列表</h2>
+            </div>
+            <div class="m bdb-1px">
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location" />
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+                <div class="mb sw-btn">
+                    <label>
+                        <input type="checkbox" name="location"/>
+                        北京市海淀区西土城路10号
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pay-btn">
+        <a href="javascript:void(0)" class="btn1 tip-btn">确定</a>
+    </div>
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function () {
+        var $location1 = $('.btn3-ch01');
+        var $location2 = $('.btn3-ch02');
+        var $list1 = $('.sendlocation');
+        var $list2 = $('.selflocation');
+        var $input1 = $('label',$list1);
+        var $input2 = $('label',$list2);
+        $location1.on('click touchstart', function () {
+            $(this).addClass('btn3-ch');
+            $location2.removeClass('btn3-ch');
+            $list1.show();
+            $list2.hide();
+        });
+        $location2.on('click touchstart', function () {
+            $(this).addClass('btn3-ch');
+            $location1.removeClass('btn3-ch');
+            $list2.show();
+            $list1.hide();
+        });
+        $input1.each(function () {
+            $(this).on('click touchstart', function () {
+                var $input = $(this).find('input');
+                if (!($input.is(":checked"))) {
+                    $list1.find('input').prop("checked", false);
+                    $input.prop("checked", true);
+                }
+            });
+        });
+        $input2.each(function () {
+            $(this).on('click touchstart', function () {
+                var $input = $(this).find('input');
+                if (!($input.is(":checked"))) {
+                    $list2.find('input').prop("checked", false);
+                    $input.prop("checked", true);
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
