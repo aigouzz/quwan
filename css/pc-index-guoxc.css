@@ -82,6 +82,7 @@
   height: 44px;
   background: #fff;
   padding-bottom: 5px;
+  padding-top: 5px;
   z-index: 1000;
 }
 #new_top .wtop .center #nav .nav-ul {
@@ -383,6 +384,13 @@
 .ncon_box5 .center .quwan-special-all-left .quwan-special-all-lprice .quwan-special-all-lpright:hover {
   background: #fe7300;
 }
+.ncon_box5 .center .quwan-special-all-left .quwan-special-all-lprice .turnbig {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
 /* 特色服务end */
 #footers {
   padding: 20px 0;
@@ -398,4 +406,7 @@
 }
 #footers .center .wj {
   margin: 0 5px;
+}
+.clearfix {
+  display: block;
 }
